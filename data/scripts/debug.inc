@@ -148,12 +148,7 @@ Debug_EventScript_Script_2::
 	end
 
 Debug_EventScript_Script_3::
-	givemon SPECIES_TORCHIC, 1
-	givemon SPECIES_TORCHIC, 1
-	givemon SPECIES_TORCHIC, 1
-	givemon SPECIES_TORCHIC, 1
-	givemon SPECIES_TORCHIC, 1
-	warp MAP_RIVETSHORE_RANGER_INSTITUTE, 30, 17
+	warp MAP_SSELEGANT, 28, 14
 	release
 	end
 

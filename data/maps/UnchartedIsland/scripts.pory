@@ -480,20 +480,20 @@ script UnchartedIsland_Clefable{
 
 //caught in the beginning
 script UnchartedIsland_Leader_Caught_A{
-    msgbox(format("Hey! What are you doing here? You should be on the S.S. Elegant."))
+    msgbox(format("Hey! What are you doing here?\nYou should be on the S.S. Elegant."))
     warp(MAP_UNCHARTED_ISLAND, 6, 34)
     delay(60)
 }
 //caught after clearing section 1
 script UnchartedIsland_Leader_Caught_B{
-    msgbox(format("Hey! What are you doing here? You should be on the S.S. Elegant."))
+    msgbox(format("Hey! What are you doing here?\nYou should be on the S.S. Elegant."))
     warp(MAP_UNCHARTED_ISLAND, 37, 24)
     delay(60)
 }
 
 //caught after clearing section 2
 script UnchartedIsland_Leader_Caught_C{
-    msgbox(format("Hey! What are you doing here? You should be on the S.S. Elegant."))
+    msgbox(format("Hey! What are you doing here?\nYou should be on the S.S. Elegant."))
     warp(MAP_UNCHARTED_ISLAND, 53, 41)
     delay(60)
 }
@@ -724,7 +724,7 @@ script UnchartedIsland_Moxie_Melea_Fight{
     applymovement(OBJ_EVENT_ID_PLAYER, moves(face_left))
     waitmovement(0)
     delay(16)
-    msgbox_delay("Melea", format("Hahaha! I can't believe it! You've been thrown under the bus!\pThe Ace Rookie just left you alone!"))
+    msgbox_delay("Melea", format("Hahaha! I can't believe it!\nYou've been thrown under the bus!\pThe Ace Rookie just left you alone!"))
 
     applymovement(LOCALID_MOXIE_1, moves(jump_in_place_left))
     applymovement(OBJ_EVENT_ID_PLAYER, moves(face_right))
@@ -753,6 +753,10 @@ script UnchartedIsland_Moxie_Melea_Fight{
     //battle 2
     trainerbattle_no_intro(TRAINER_UNCHARTED_ISLAND_MELEA, format("This can't be happening!"))
     //post-battle 2
+    //first remove moxie
+    removeobject(LOCALID_MOXIE_1)
+
+    //then do the text
     msgbox_delay("Melea", format("No!\pWe've worked too hard...\nI can't let it end like this!\pNo!!!"))
     applymovement(LOCALID_MELEA_1, moves(walk_fast_down walk_fast_right *5 walk_fast_down *5))
     waitmovement(0)
@@ -760,8 +764,6 @@ script UnchartedIsland_Moxie_Melea_Fight{
     //set the new location for melea
     setobjectxyperm(LOCALID_MELEA_1, 79, 42)
     setobjectxy(LOCALID_MELEA_1, 79, 42)
-
-    removeobject(LOCALID_MOXIE_1)
 
     setvar(VAR_UNCHARTED_ISLAND_CUTSCENES, 1)
     setflag(FLAG_ISLAND_MOXIE_MELEA_BATTLE)

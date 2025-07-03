@@ -1105,10 +1105,8 @@ SSElegant_Jania_Text_2:
 
 SSElegant_Inger_Text_0:
 # 330 "data//maps/SSElegant/scripts.pory"
-	.string "Alright, c'mon Ariana! This time I won't\n"
-	.string "lose to you!\p"
-	.string "Hey, {PLAYER}! I didn't know you were\n"
-	.string "on the cruise.$"
+	.string "Hey, since {PLAYER} is here...\n"
+	.string "how about a double battle?$"
 
 SSElegant_Inger_Text_1:
 # 330 "data//maps/SSElegant/scripts.pory"
@@ -1127,8 +1125,10 @@ SSElegant_Minior_Text_0:
 
 SSElegant_Ariana_Text_0:
 # 342 "data//maps/SSElegant/scripts.pory"
-	.string "Hey, since {PLAYER} is here...how\n"
-	.string "about a double battle?$"
+	.string "Alright, c'mon Inger!\n"
+	.string "Tauros isn't done battling yet!\p"
+	.string "Hey, {PLAYER}!\n"
+	.string "I didn't know you were on the cruise.$"
 
 SSElegant_Ariana_Text_1:
 # 342 "data//maps/SSElegant/scripts.pory"
