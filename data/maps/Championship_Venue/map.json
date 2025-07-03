@@ -38,7 +38,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Venue_NPC1",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Venue_NPC2",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LEADER_ARIANA",
@@ -64,7 +64,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Venue_Ariana",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LEADER_INGER",
@@ -77,7 +77,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Venue_Inger",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_4",
@@ -90,7 +90,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Venue_NPC5",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_3",
@@ -103,7 +103,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Venue_NPC4",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
@@ -116,7 +116,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Venue_NPC3",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
@@ -129,7 +129,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Venue_NPC6",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(MINIOR)",
@@ -142,7 +142,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Venue_Minior",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(TAUROS_PALDEA_BLAZE)",
@@ -155,7 +155,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Venue_Tauros",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_UNION_ROOM_NURSE",

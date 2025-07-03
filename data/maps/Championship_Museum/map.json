@@ -38,7 +38,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Museum_NPC4",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GRETA",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Museum_NPC6",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
@@ -64,7 +64,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Museum_NPC5",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_1",
@@ -77,7 +77,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Museum_NPC7",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
@@ -90,7 +90,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Museum_NPC8",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
@@ -103,7 +103,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Museum_NPC3",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_4",
@@ -116,7 +116,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Champ_Museum_NPC2",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     }
   ],
   "warp_events": [

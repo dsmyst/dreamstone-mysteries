@@ -31,7 +31,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DRAKE",
@@ -44,7 +44,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_NPC10",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_F",
@@ -57,7 +57,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Gab",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(ZOROARK_HISUI)",
@@ -70,7 +70,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Zoroark",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_1",
@@ -83,7 +83,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_NPC4",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_2",
@@ -96,7 +96,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_NPC5",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_1",
@@ -109,7 +109,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_NPC6",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_4",
@@ -122,7 +122,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_NPC7",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
@@ -135,7 +135,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_NPC1",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS",
@@ -148,7 +148,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_NPC2",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
@@ -161,7 +161,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_NPC3",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(PALPITOAD)",
@@ -174,7 +174,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Mon2",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HEX_MANIAC",
@@ -187,7 +187,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_NPC8",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MR_BRINEYS_BOAT",
@@ -200,7 +200,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MR_BRINEYS_BOAT",
@@ -213,7 +213,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MR_BRINEYS_BOAT",
@@ -226,7 +226,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MR_BRINEYS_BOAT",
@@ -239,7 +239,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LEADER_VINIEL",
@@ -252,7 +252,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Viniel",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
@@ -265,7 +265,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Viniel_Kids",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
@@ -278,7 +278,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Viniel_Kids",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
@@ -291,7 +291,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Viniel_Kids",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
@@ -304,7 +304,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Viniel_Kids",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(MANECTRIC)",
@@ -317,7 +317,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Manectric",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_1",
@@ -330,7 +330,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Viniel_Parent",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(YANMEGA)",
@@ -343,7 +343,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Mon4",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(CHIMECHO)",
@@ -356,7 +356,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Mon5",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(LOKIX)",
@@ -369,7 +369,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Mon3",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(AMOONGUSS)",
@@ -382,7 +382,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Mon1",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS",
@@ -395,7 +395,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Trainer_D",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_3",
@@ -408,7 +408,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Trainer_C",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
@@ -421,7 +421,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Trainer_A",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_2",
@@ -434,7 +434,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Trainer_B",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_3",
@@ -447,7 +447,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_NPC9",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(CARBINK)",
@@ -460,7 +460,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Carbink",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(SHIINOTIC)",
@@ -473,7 +473,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Shiinotic",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(MASQUERAIN)",
@@ -486,7 +486,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Masquerain",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(CETITAN)",
@@ -499,7 +499,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_Cetitan",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(DRIFBLIM)",
@@ -525,7 +525,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_NPC12",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SAILOR",
@@ -538,7 +538,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryCape_NPC11",
-      "flag": "0"
+      "flag": "FLAG_IS_CHAMPION"
     }
   ],
   "warp_events": [
