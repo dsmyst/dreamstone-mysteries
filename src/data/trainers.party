@@ -10590,15 +10590,9 @@ Banette @ Banettite
 Level: 71
 EVs: 252 HP / 252 Atk / 4 Def  
 Adamant Nature  
-- Thunder Wave  
-- Destiny Bond  
+- Thunder Wave    
 - Hex  
 - Sucker Punch  
-
-
-
-
-
 
 === TRAINER_CHAMPION_RAVINE ===
 Name: Ravine
@@ -10675,34 +10669,149 @@ Impish Nature
 
 
 === TRAINER_CHAMPION_LYNCH ===
-Name: TRAVIS
+Name: Lynch
 Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer / Prediction / Ace Pokemon
+Starting Status: Rainbow Opponent
 
-Sandshrew
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Amoonguss @ Leftovers  
+Level: 69
+Ability: Regenerator  
+EVs: 252 HP / 88 Def / 124 SpD / 44 Spe  
+Sassy Nature  
+- Spore  
+- Sludge Bomb  
+- Energy Ball  
+- Stomping Tantrum  
+
+Talonflame @ Liechi Berry  
+Level: 70
+Ability: Gale Wings  
+EVs: 248 HP / 8 Atk / 252 Spe  
+Jolly Nature  
+- Brave Bird  
+- Will-O-Wisp  
+- Flare Blitz  
+- Roost  
+
+Sinistcha-Masterpiece @ Big Root  
+Level: 70
+Ability: Heatproof  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Modest Nature  
+IVs: 0 Atk  
+- Matcha Gotcha  
+- Calm Mind  
+- Shadow Ball  
+- Strength Sap  
+
+Lopunny @ Lopunnite  
+Level: 73
+Ability: Limber  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Fake Out  
+- Close Combat  
+- Quick Attack
+- Power Up Punch
+
+Bruxish @ Life Orb  
+Level: 72
+Ability: Strong Jaw  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Psychic Fangs  
+- Liquidation  
+- Crunch  
+- Ice Fang  
+
+Hydrapple @ Life Orb  
+Level: 75
+Ability: Regenerator  
+EVs: 248 HP / 252 SpA / 8 SpD  
+Modest Nature  
+IVs: 0 Atk  
+- Fickle Beam  
+- Energy Ball  
+- Nasty Plot  
+- Earth Power  
+
 
 === TRAINER_CHAMPION_MARTHA ===
-Name: ETHAN
+Name: Martha
 Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer / Prediction / Ace Pokemon
 
-Zigzagoon
-Level: 26
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Aurorus @ Light Clay  
+Level: 70
+Ability: Snow Warning  
+EVs: 252 HP / 144 Def / 112 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Blizzard  
+- Aurora Veil  
+- Ancient Power  
+- Earth Power  
 
-Taillow
-Level: 26
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Frosmoth @ Life Orb  
+Level: 72
+Ability: Ice Scales  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Quiver Dance  
+- Bug Buzz  
+- Blizzard  
+- Dazzling Gleam  
+
+Arcanine-Hisui @ Choice Band  
+Level: 74
+Ability: Intimidate  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Extreme Speed  
+- Rock Slide  
+- Flare Blitz  
+- Wild Charge  
+
+Goodra-Hisui @ Leftovers  
+Level: 73
+Ability: Sap Sipper  
+EVs: 252 HP / 4 Atk / 252 Def  
+Careful Nature  
+- Body Press  
+- Breaking Swipe  
+- Life Dew  
+- Knock Off  
+
+Mr. Rime @ Life Orb  
+Level: 73
+Ability: Ice Body  
+EVs: 248 HP / 252 SpA / 8 SpD  
+Modest Nature  
+IVs: 0 Atk  
+- Freeze-Dry  
+- Blizzard  
+- Future Sight  
+- Slack Off  
+
+Houndstone @ Sitrus Berry  
+Level: 77
+Ability: Fluffy  
+EVs: 252 Atk / 252 Spe  
+Adamant Nature  
+- Last Respects  
+- Crunch  
+
+
 
 === TRAINER_ETHAN_3 ===
 Name: ETHAN

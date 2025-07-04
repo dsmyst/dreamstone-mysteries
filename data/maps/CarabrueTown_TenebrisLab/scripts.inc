@@ -1190,7 +1190,7 @@ CarabrueTown_TenebrisLab_Metagross::
 CarabrueTown_TenebrisLab_Tenebris::
 # 773 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
 	goto_if_set FLAG_SYS_GAME_CLEAR, CarabrueTown_TenebrisLab_Tenebris_2
-# 781 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+# 780 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
 	msgbox_delay CarabrueTown_TenebrisLab_Tenebris_Text_0, CarabrueTown_TenebrisLab_Tenebris_Text_3
 	end
 
@@ -2025,5 +2025,5 @@ CarabrueTown_TenebrisLab_Tenebris_Text_2:
 	.string "Champion!$"
 
 CarabrueTown_TenebrisLab_Tenebris_Text_3:
-# 781 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+# 780 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
 	.string "Go {PLAYER} go!$"

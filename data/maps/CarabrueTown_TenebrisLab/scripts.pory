@@ -777,7 +777,6 @@ script CarabrueTown_TenebrisLab_Tenebris{
         end
     }
 
-
     msgbox_delay("Tenebris", format("Go {PLAYER} go!"))
     end
 }
