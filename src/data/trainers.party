@@ -10524,34 +10524,154 @@ Level: 24
 
 === TRAINER_CHAMPION_GRETA ===
 Name: Greta
+Difficulty: Easy
 Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Trainer / Prediction / Ace Pokemon
+AI: Smart Trainer / Prediction
 Starting Status: Trick Room
 
-Sandshrew
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Chandelure @ Expert Belt  
+Level: 65
+Ability: Flame Body  
+EVs: 252 HP / 252 SpA  
+Quiet Nature  
+IVs: 0 Atk  
+- Mystical Fire  
+- Shadow Ball  
+- Energy Ball  
+- Calm Mind  
+
+Feraligatr @ Life Orb  
+Level: 66
+Ability: Sheer Force  
+EVs: 96 HP / 252 Atk / 12 Def / 148 SpD  
+Adamant Nature  
+- Dragon Dance  
+- Liquidation  
+- Superpower  
+- Stomping Tantrum  
+
+Orbeetle @ Light Clay  
+Level: 66
+Ability: Swarm  
+EVs: 252 HP / 4 Def / 252 SpA  
+Modest Nature  
+IVs: 0 Atk  
+- Bug Buzz  
+- Psychic  
+- Reflect  
+- Trick Room  
+
+Revavroom @ Weakness Policy  
+Level: 68
+Ability: Filter  
+EVs: 252 HP / 132 Atk / 124 Spe  
+Adamant Nature  
+- Shift Gear  
+- Gunk Shot  
+- Iron Head  
+- Self-Destruct  
+
+Roserade @ Power Herb  
+Level: 69
+Ability: Natural Cure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Solar Beam  
+- Sludge Bomb  
+- Dazzling Gleam  
+- Sleep Powder  
+
+Banette @ Banettite  
+Level: 71
+EVs: 252 HP / 252 Atk / 4 Def  
+Adamant Nature  
+- Thunder Wave  
+- Destiny Bond  
+- Hex  
+- Sucker Punch  
+
+
+
 
 
 
 === TRAINER_CHAMPION_RAVINE ===
-Name: AUTUMN
+Name: Ravine
+Difficulty: Easy
 Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: No
+Double Battle: Yes
 AI: Smart Trainer / Prediction / Ace Pokemon
-Starting Status: Trick Room
+Starting Status: Rainbow Opponent
 
-Sandshrew
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Masquerain @ Focus Sash  
+Level: 67
+Ability: Intimidate  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Quiver Dance  
+- Bug Buzz  
+- Hurricane  
+- Surf
 
+Seismitoad @ Leftovers  
+Level: 68
+Ability: Water Absorb
+EVs: 252 HP / 4 Atk / 164 Def / 88 SpD  
+Impish Nature  
+- Surf  
+- Earthquake  
+- Stealth Rock  
+- Knock Off  
+
+Meganium @ Leftovers  
+Level: 68
+Ability: Overgrow  
+EVs: 252 HP / 4 Atk / 108 Def / 144 SpD  
+Sassy Nature  
+- Dragon Tail  
+- Giga Drain  
+- Synthesis  
+- Toxic  
+
+Dubwool @ Rocky Helmet  
+Level: 69
+Ability: Fluffy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Cotton Guard  
+- Body Press  
+- Rest  
+- Sleep Talk  
+
+Lycanroc-Dusk @ Choice Band  
+Level: 70
+Ability: Tough Claws
+EVs: 108 HP / 252 Atk / 148 Spe  
+Adamant Nature  
+- Accelerock  
+- Close Combat  
+- Drill Run  
+- Last Resort  
+
+Kangaskhan-Mega (F) @ Kangaskhanite  
+Level: 73
+Ability: Parental Bond  
+EVs: 252 HP / 32 Def / 128 SpD / 96 Spe  
+Impish Nature  
+- Fake Out  
+- Power-Up Punch  
+- Last Resort  
+- Crunch  
 
 
 === TRAINER_CHAMPION_LYNCH ===

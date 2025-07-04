@@ -154,10 +154,15 @@ Debug_EventScript_Script_3::
 	end
 
 Debug_EventScript_Script_4::
+	setweather WEATHER_RAIN
+	doweather
+	delay 60
+	trainerbattle_no_intro TRAINER_CHAMPION_RAVINE, Debug_EventScript_Text_OffensiveIVs
 	release
 	end
 
 Debug_EventScript_Script_5::
+	trainerbattle_no_intro TRAINER_CHAMPION_GRETA, Debug_EventScript_Text_OffensiveIVs
 	release
 	end
 
