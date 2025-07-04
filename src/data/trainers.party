@@ -10522,37 +10522,39 @@ Level: 24
 
 
 
-=== TRAINER_ETHAN_1 ===
-Name: ETHAN
+=== TRAINER_CHAMPION_GRETA ===
+Name: Greta
 Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer / Prediction / Ace Pokemon
+Starting Status: Trick Room
 
-Zigzagoon
-Level: 20
+Sandshrew
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Taillow
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_AUTUMN ===
+
+=== TRAINER_CHAMPION_RAVINE ===
 Name: AUTUMN
 Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer / Prediction / Ace Pokemon
+Starting Status: Trick Room
 
-Shroomish
-Level: 21
+Sandshrew
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_TRAVIS ===
+
+
+=== TRAINER_CHAMPION_LYNCH ===
 Name: TRAVIS
 Class: Camper
 Pic: Camper
@@ -10565,7 +10567,7 @@ Sandshrew
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_ETHAN_2 ===
+=== TRAINER_CHAMPION_MARTHA ===
 Name: ETHAN
 Class: Camper
 Pic: Camper

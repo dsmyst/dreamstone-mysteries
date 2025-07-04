@@ -285,17 +285,11 @@
 #define TRAINER_CHAMPIONSHIP_C              199
 #define TRAINER_CHAMPIONSHIP_D              200
 #define TRAINER_CHAMPIONSHIP_E              201
-#define TRAINER_VICTORYCAPE_A              202
-
-
-//past champions
-#define TRAINER_VICTORYCAPE_B                        203
+#define TRAINER_VICTORYCAPE_A               202
+#define TRAINER_VICTORYCAPE_B               203
 #define TRAINER_JACE                        204
 #define TRAINER_KEEGAN                      205
 #define TRAINER_BERNIE_1                    206
-
-
-
 
 ///FIRST 5 PLAYERS WHO BEAT THE GAME
 #define TRAINER_PLAYER_SENTRY               207
@@ -310,11 +304,13 @@
 #define TRAINER_ROUTE7_C                    214
 #define TRAINER_ROUTE7_D                    215
 
+//past champions
+#define TRAINER_CHAMPION_GRETA              216
+#define TRAINER_CHAMPION_RAVINE             217
+#define TRAINER_CHAMPION_LYNCH              218
+#define TRAINER_CHAMPION_MARTHA             219
 
-#define TRAINER_ETHAN_1                     216
-#define TRAINER_AUTUMN                      217
-#define TRAINER_TRAVIS                      218
-#define TRAINER_ETHAN_2                     219
+
 #define TRAINER_ETHAN_3                     220
 #define TRAINER_ETHAN_4                     221
 #define TRAINER_ETHAN_5                     222
