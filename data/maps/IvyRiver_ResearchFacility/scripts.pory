@@ -267,7 +267,7 @@ script IvyRiver_Ranger_Scientist_B{
     }
 
     //quest
-    msgbox(format("Did you know that Toedscool is a regional form of Tentacool?\pI'm studying whether regional forms may be connected to mega evolution. But I have no idea where to find a Toedscool!"), MSGBOX_NPC)
+    msgbox(format("Did you know that Toedscool is a regional form of Tentacool?\pI'm studying whether regional forms may be connected to mega evolution. I heard you can fish for a Toedscool, but I don't know where!"), MSGBOX_NPC)
     
     showmonpic(SPECIES_TOEDSCOOL, 10, 3)
     msgbox(format("Do you have a Toedscool that\nI can take photographs of?"), MSGBOX_YESNO)

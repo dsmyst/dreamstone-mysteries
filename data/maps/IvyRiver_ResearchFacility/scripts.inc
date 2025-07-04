@@ -889,8 +889,9 @@ IvyRiver_Ranger_Scientist_B_Text_2:
 	.string "Did you know that Toedscool is a\n"
 	.string "regional form of Tentacool?\p"
 	.string "I'm studying whether regional forms may\n"
-	.string "be connected to mega evolution. But I\l"
-	.string "have no idea where to find a Toedscool!$"
+	.string "be connected to mega evolution. I heard\l"
+	.string "you can fish for a Toedscool, but I\l"
+	.string "don't know where!$"
 
 IvyRiver_Ranger_Scientist_B_Text_3:
 # 273 "data//maps/IvyRiver_ResearchFacility/scripts.pory"

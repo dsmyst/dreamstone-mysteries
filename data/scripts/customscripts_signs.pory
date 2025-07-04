@@ -414,7 +414,10 @@ script WhiteSign_Rivetshore_Ranger{
     msgbox(format("The Pokémon Ranger Institute\nRivetshore City Branch"), MSGBOX_SIGN)
     end
 }
-
+script WhiteSign_Rivetshore_Daycare{
+    msgbox(format("The Ranger Day-Care Facility"), MSGBOX_SIGN)
+    end
+}
 
 
 
