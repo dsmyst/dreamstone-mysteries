@@ -771,8 +771,12 @@ script CarabrueTown_TenebrisLab_Metagross{
 
 script CarabrueTown_TenebrisLab_Tenebris{
     if (flag(FLAG_SYS_GAME_CLEAR)){
-        msgbox_delay("Tenebris", format("{PLAYER}! You're back!\nThe detectives and I saw your match against Kohla, you know!\pThey were shouting Kohla's name so loudly...but I was cheering for you!"))
-        delay(16)
+
+        if (!flag(FLAG_POST_CHAMPION_TENEBRIS)) {
+            msgbox_delay("Tenebris", format("{PLAYER}! You're back!\nThe detectives and I saw your match against Kohla, you know!\pThey were shouting Kohla's name so loudly...but I was cheering for you!"))
+            setflag(FLAG_POST_CHAMPION_TENEBRIS)
+            delay(16)
+        }
         msgbox_delay("Tenebris", format("My youngest researcher - a Pokémon Champion!"))
         end
     }

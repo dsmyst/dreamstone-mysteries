@@ -1190,18 +1190,26 @@ CarabrueTown_TenebrisLab_Metagross::
 CarabrueTown_TenebrisLab_Tenebris::
 # 773 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
 	goto_if_set FLAG_SYS_GAME_CLEAR, CarabrueTown_TenebrisLab_Tenebris_2
-# 780 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+# 784 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
 	msgbox_delay CarabrueTown_TenebrisLab_Tenebris_Text_0, CarabrueTown_TenebrisLab_Tenebris_Text_3
 	end
 
 CarabrueTown_TenebrisLab_Tenebris_2:
-# 774 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
-	msgbox_delay CarabrueTown_TenebrisLab_Tenebris_Text_0, CarabrueTown_TenebrisLab_Tenebris_Text_1
 # 775 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
-	delay 16
-# 776 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	goto_if_unset FLAG_POST_CHAMPION_TENEBRIS, CarabrueTown_TenebrisLab_Tenebris_5
+CarabrueTown_TenebrisLab_Tenebris_4:
+# 780 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
 	msgbox_delay CarabrueTown_TenebrisLab_Tenebris_Text_0, CarabrueTown_TenebrisLab_Tenebris_Text_2
 	end
+
+CarabrueTown_TenebrisLab_Tenebris_5:
+# 776 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	msgbox_delay CarabrueTown_TenebrisLab_Tenebris_Text_0, CarabrueTown_TenebrisLab_Tenebris_Text_1
+# 777 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	setflag FLAG_POST_CHAMPION_TENEBRIS
+# 778 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	delay 16
+	goto CarabrueTown_TenebrisLab_Tenebris_4
 
 
 # 27 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
@@ -2008,11 +2016,11 @@ CarabrueTown_TenebrisLab_Metagross_Text_0:
 	.string "intimidating!$"
 
 CarabrueTown_TenebrisLab_Tenebris_Text_0:
-# 774 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+# 776 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
 	.string "Tenebris$"
 
 CarabrueTown_TenebrisLab_Tenebris_Text_1:
-# 774 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+# 776 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
 	.string "{PLAYER}! You're back!\n"
 	.string "The detectives and I saw your match\l"
 	.string "against Kohla, you know!\p"
@@ -2020,10 +2028,10 @@ CarabrueTown_TenebrisLab_Tenebris_Text_1:
 	.string "loudly...but I was cheering for you!$"
 
 CarabrueTown_TenebrisLab_Tenebris_Text_2:
-# 776 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+# 780 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
 	.string "My youngest researcher - a Pokémon\n"
 	.string "Champion!$"
 
 CarabrueTown_TenebrisLab_Tenebris_Text_3:
-# 780 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+# 784 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
 	.string "Go {PLAYER} go!$"
