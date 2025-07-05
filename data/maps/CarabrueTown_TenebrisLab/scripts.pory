@@ -770,18 +770,53 @@ script CarabrueTown_TenebrisLab_Metagross{
 
 
 script CarabrueTown_TenebrisLab_Tenebris{
+    //after championship
     if (flag(FLAG_SYS_GAME_CLEAR)){
-
+        //first-time congrats
         if (!flag(FLAG_POST_CHAMPION_TENEBRIS)) {
             msgbox_delay("Tenebris", format("{PLAYER}! You're back!\nThe detectives and I saw your match against Kohla, you know!\pThey were shouting Kohla's name so loudly...but I was cheering for you!"))
             setflag(FLAG_POST_CHAMPION_TENEBRIS)
             delay(16)
         }
-        msgbox_delay("Tenebris", format("My youngest researcher - a Pokémon Champion!"))
-        end
     }
 
-    msgbox_delay("Tenebris", format("Go {PLAYER} go!"))
-    end
+    //upgrading the archaeolens
+    checkitem(ITEM_HISTORIAN_MEDAL)
+    if (var(VAR_RESULT) == TRUE){
+        checkitem(ITEM_ARCHAEOLENS_2)
+        if (var(VAR_RESULT) == FALSE){
+            msgbox_delay("Tenebris", format("Oh, is that a Historian Medal? Incredible! It's a prestigious academic honour, {PLAYER}. You never cease to amaze me!\pHand me your Archaeolens."))
+            release
+            removeitem(ITEM_ARCHAEOLENS)
+            playfanfare(MUS_LEVEL_UP)
+            msgbox(format("{PLAYER} handed over the Archaeolens."))
+            release
+            delay(24)
+            msgbox_delay("Tenebris", format("With a little bit of tooling...\p...and fiddling...\p...give it a shake..."))
+            release
+            playse(SE_SWITCH)
+            waitse
+
+            msgbox_delay("Tenebris", format("There we go! The Archaeolens 2.0!"))
+            release
+            giveitem(ITEM_ARCHAEOLENS_2)
+
+            msgbox_delay("Tenebris", format("This upgraded Archaeolens can scan and decipher the text of ancient carvings. Only those who have the Historian Medal are allowed to use it."))
+            release
+            delay(16)
+    
+        }
+    }
+
+    //Default text
+    if (flag(FLAG_SYS_GAME_CLEAR)){
+        msgbox_delay("Tenebris", format("My youngest researcher - a Pokémon Champion!"))
+        end
+    } else {
+        msgbox_delay("Tenebris", format("Go {PLAYER} go!"))
+        end
+    }
 }
+
+
 

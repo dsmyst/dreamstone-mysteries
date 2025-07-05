@@ -1188,26 +1188,82 @@ CarabrueTown_TenebrisLab_Metagross::
 
 
 CarabrueTown_TenebrisLab_Tenebris::
-# 773 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+# 774 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
 	goto_if_set FLAG_SYS_GAME_CLEAR, CarabrueTown_TenebrisLab_Tenebris_2
+CarabrueTown_TenebrisLab_Tenebris_1:
 # 784 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
-	msgbox_delay CarabrueTown_TenebrisLab_Tenebris_Text_0, CarabrueTown_TenebrisLab_Tenebris_Text_3
+	checkitem ITEM_HISTORIAN_MEDAL
+# 785 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	compare VAR_RESULT, TRUE
+	goto_if_eq CarabrueTown_TenebrisLab_Tenebris_5
+CarabrueTown_TenebrisLab_Tenebris_4:
+# 812 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	goto_if_set FLAG_SYS_GAME_CLEAR, CarabrueTown_TenebrisLab_Tenebris_9
+# 816 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	msgbox_delay CarabrueTown_TenebrisLab_Tenebris_Text_0, CarabrueTown_TenebrisLab_Tenebris_Text_8
 	end
 
 CarabrueTown_TenebrisLab_Tenebris_2:
-# 775 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
-	goto_if_unset FLAG_POST_CHAMPION_TENEBRIS, CarabrueTown_TenebrisLab_Tenebris_5
-CarabrueTown_TenebrisLab_Tenebris_4:
-# 780 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
-	msgbox_delay CarabrueTown_TenebrisLab_Tenebris_Text_0, CarabrueTown_TenebrisLab_Tenebris_Text_2
-	end
+# 776 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	goto_if_unset FLAG_POST_CHAMPION_TENEBRIS, CarabrueTown_TenebrisLab_Tenebris_7
+	goto CarabrueTown_TenebrisLab_Tenebris_1
 
 CarabrueTown_TenebrisLab_Tenebris_5:
-# 776 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
-	msgbox_delay CarabrueTown_TenebrisLab_Tenebris_Text_0, CarabrueTown_TenebrisLab_Tenebris_Text_1
+# 786 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	checkitem ITEM_ARCHAEOLENS_2
+# 787 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	compare VAR_RESULT, FALSE
+	goto_if_eq CarabrueTown_TenebrisLab_Tenebris_12
+	goto CarabrueTown_TenebrisLab_Tenebris_4
+
+CarabrueTown_TenebrisLab_Tenebris_7:
 # 777 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
-	setflag FLAG_POST_CHAMPION_TENEBRIS
+	msgbox_delay CarabrueTown_TenebrisLab_Tenebris_Text_0, CarabrueTown_TenebrisLab_Tenebris_Text_1
 # 778 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	setflag FLAG_POST_CHAMPION_TENEBRIS
+# 779 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	delay 16
+	goto CarabrueTown_TenebrisLab_Tenebris_1
+
+CarabrueTown_TenebrisLab_Tenebris_9:
+# 813 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	msgbox_delay CarabrueTown_TenebrisLab_Tenebris_Text_0, CarabrueTown_TenebrisLab_Tenebris_Text_7
+	end
+
+CarabrueTown_TenebrisLab_Tenebris_12:
+# 788 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	msgbox_delay CarabrueTown_TenebrisLab_Tenebris_Text_0, CarabrueTown_TenebrisLab_Tenebris_Text_2
+# 789 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	release
+# 790 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	removeitem ITEM_ARCHAEOLENS
+# 791 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	playfanfare MUS_LEVEL_UP
+# 792 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	msgbox CarabrueTown_TenebrisLab_Tenebris_Text_3
+# 793 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	release
+# 794 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	delay 24
+# 795 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	msgbox_delay CarabrueTown_TenebrisLab_Tenebris_Text_0, CarabrueTown_TenebrisLab_Tenebris_Text_4
+# 796 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	release
+# 797 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	playse SE_SWITCH
+# 798 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	waitse
+# 800 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	msgbox_delay CarabrueTown_TenebrisLab_Tenebris_Text_0, CarabrueTown_TenebrisLab_Tenebris_Text_5
+# 801 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	release
+# 802 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	giveitem ITEM_ARCHAEOLENS_2
+# 804 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	msgbox_delay CarabrueTown_TenebrisLab_Tenebris_Text_0, CarabrueTown_TenebrisLab_Tenebris_Text_6
+# 805 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	release
+# 806 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
 	delay 16
 	goto CarabrueTown_TenebrisLab_Tenebris_4
 
@@ -2016,11 +2072,11 @@ CarabrueTown_TenebrisLab_Metagross_Text_0:
 	.string "intimidating!$"
 
 CarabrueTown_TenebrisLab_Tenebris_Text_0:
-# 776 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+# 777 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
 	.string "Tenebris$"
 
 CarabrueTown_TenebrisLab_Tenebris_Text_1:
-# 776 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+# 777 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
 	.string "{PLAYER}! You're back!\n"
 	.string "The detectives and I saw your match\l"
 	.string "against Kohla, you know!\p"
@@ -2028,10 +2084,40 @@ CarabrueTown_TenebrisLab_Tenebris_Text_1:
 	.string "loudly...but I was cheering for you!$"
 
 CarabrueTown_TenebrisLab_Tenebris_Text_2:
-# 780 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+# 788 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	.string "Oh, is that a Historian Medal?\n"
+	.string "Incredible! It's a prestigious academic\l"
+	.string "honour, {PLAYER}. You never cease to\l"
+	.string "amaze me!\p"
+	.string "Hand me your Archaeolens.$"
+
+CarabrueTown_TenebrisLab_Tenebris_Text_3:
+# 792 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	.string "{PLAYER} handed over the\n"
+	.string "Archaeolens.$"
+
+CarabrueTown_TenebrisLab_Tenebris_Text_4:
+# 795 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	.string "With a little bit of tooling...\p"
+	.string "...and fiddling...\p"
+	.string "...give it a shake...$"
+
+CarabrueTown_TenebrisLab_Tenebris_Text_5:
+# 800 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	.string "There we go! The Archaeolens 2.0!$"
+
+CarabrueTown_TenebrisLab_Tenebris_Text_6:
+# 804 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+	.string "This upgraded Archaeolens can scan and\n"
+	.string "decipher the text of ancient carvings.\l"
+	.string "Only those who have the Historian Medal\l"
+	.string "are allowed to use it.$"
+
+CarabrueTown_TenebrisLab_Tenebris_Text_7:
+# 813 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
 	.string "My youngest researcher - a Pokémon\n"
 	.string "Champion!$"
 
-CarabrueTown_TenebrisLab_Tenebris_Text_3:
-# 784 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
+CarabrueTown_TenebrisLab_Tenebris_Text_8:
+# 816 "data//maps/CarabrueTown_TenebrisLab/scripts.pory"
 	.string "Go {PLAYER} go!$"
