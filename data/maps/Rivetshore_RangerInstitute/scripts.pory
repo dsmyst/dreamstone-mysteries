@@ -28,3 +28,15 @@ script Rivetshore_RangerInstitute_TryMoveDayCareMan{
 	goto_if_unset(FLAG_PENDING_DAYCARE_EGG, Route117_EventScript_StopMoveDayCareMan)
 	setobjectxyperm(LOCALID_DAYCARE_MAN, 26, 12)
 }
+
+
+script Rivetshore_RangerInstitute_DittoMan{
+    //FLAG_RIVETSHORE_RANGER_DITTO
+    checkitem(ITEM_RANGER_CREST)
+    if (var(VAR_RESULT) == TRUE){
+        if (!flag(FLAG_RIVETSHORE_RANGER_DITTO)){
+            givemon(SPECIES_DITTO, 30)
+            setflag(FLAG_RIVETSHORE_RANGER_DITTO)
+        }
+    }
+}

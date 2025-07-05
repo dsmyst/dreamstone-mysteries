@@ -49,3 +49,24 @@ Rivetshore_RangerInstitute_TryMoveDayCareMan::
 	setobjectxyperm LOCALID_DAYCARE_MAN, 26, 12
 	return
 
+
+Rivetshore_RangerInstitute_DittoMan::
+# 35 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	checkitem ITEM_RANGER_CREST
+# 36 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	compare VAR_RESULT, TRUE
+	goto_if_eq Rivetshore_RangerInstitute_DittoMan_1
+	return
+
+Rivetshore_RangerInstitute_DittoMan_1:
+# 37 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	goto_if_unset FLAG_RIVETSHORE_RANGER_DITTO, Rivetshore_RangerInstitute_DittoMan_3
+	return
+
+Rivetshore_RangerInstitute_DittoMan_3:
+# 38 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	givemon SPECIES_DITTO, 30
+# 39 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	setflag FLAG_RIVETSHORE_RANGER_DITTO
+	return
+
