@@ -66,3 +66,22 @@ script Rivetshore_RangerInstitute_DittoMan{
 
 
 
+//Battle
+script Rivetshore_Ranger_Ravine_Battle_Trigger{
+    if (flag(FLAG_HIDE_CHAMPION_RAVINE)) {end}
+    if (flag(FLAG_CHAMPION_RAVINE_COMPLETE)) {end}
+
+    setweather(WEATHER_RAIN)
+    doweather
+    delay(2)
+
+    special(SpawnCameraObject)
+    applymovement(OBJ_EVENT_ID_CAMERA, moves(walk_down * 3))
+    waitmovement(0)
+
+    releaseall
+    end
+}
+
+
+

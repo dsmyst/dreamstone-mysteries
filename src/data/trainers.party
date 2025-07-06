@@ -10667,6 +10667,79 @@ Impish Nature
 - Last Resort  
 - Crunch  
 
+=== TRAINER_CHAMPION_RAVINE ===
+Name: Ravine
+Difficulty: Normal
+Class: Picnicker
+Pic: Picnicker
+Gender: Female
+Music: Girl
+Double Battle: Yes
+AI: Smart Trainer / Prediction / Ace Pokemon
+Starting Status: Rainbow Opponent
+
+Masquerain @ Focus Sash  
+Level: 67
+Ability: Intimidate  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Quiver Dance  
+- Bug Buzz  
+- Hurricane  
+- Surf
+
+Seismitoad @ Leftovers  
+Level: 68
+Ability: Water Absorb
+EVs: 252 HP / 4 Atk / 164 Def / 88 SpD  
+Impish Nature  
+- Surf  
+- Earthquake  
+- Stealth Rock  
+- Knock Off  
+
+Meganium @ Leftovers  
+Level: 68
+Ability: Overgrow  
+EVs: 252 HP / 4 Atk / 108 Def / 144 SpD  
+Sassy Nature  
+- Dragon Tail  
+- Giga Drain  
+- Synthesis  
+- Toxic  
+
+Dubwool @ Rocky Helmet  
+Level: 69
+Ability: Fluffy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Cotton Guard  
+- Body Press  
+- Rest  
+- Sleep Talk  
+
+Lycanroc-Dusk @ Choice Band  
+Level: 70
+Ability: Tough Claws
+EVs: 108 HP / 252 Atk / 148 Spe  
+Adamant Nature  
+- Accelerock  
+- Close Combat  
+- Drill Run  
+- Last Resort  
+
+Kangaskhan-Mega (F) @ Kangaskhanite  
+Level: 73
+Ability: Parental Bond  
+EVs: 252 HP / 32 Def / 128 SpD / 96 Spe  
+Impish Nature  
+- Fake Out  
+- Power-Up Punch  
+- Last Resort  
+- Crunch  
+
 
 === TRAINER_CHAMPION_LYNCH ===
 Name: Lynch
@@ -10715,7 +10788,7 @@ Ability: Limber
 EVs: 252 Atk / 4 SpD / 252 Spe  
 Jolly Nature  
 - Fake Out  
-- Close Combat  
+- Hi Jump Kick  
 - Quick Attack
 - Power Up Punch
 

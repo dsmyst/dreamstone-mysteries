@@ -100,6 +100,44 @@ Rivetshore_RangerInstitute_DittoMan_6:
 	end
 
 
+Rivetshore_Ranger_Ravine_Battle_Trigger::
+# 71 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	goto_if_set FLAG_HIDE_CHAMPION_RAVINE, Rivetshore_Ranger_Ravine_Battle_Trigger_2
+# 72 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	goto_if_set FLAG_CHAMPION_RAVINE_COMPLETE, Rivetshore_Ranger_Ravine_Battle_Trigger_5
+# 74 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	setweather WEATHER_RAIN
+# 75 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	doweather
+# 76 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	delay 2
+# 78 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	special SpawnCameraObject
+# 79 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	applymovement OBJ_EVENT_ID_CAMERA, Rivetshore_Ranger_Ravine_Battle_Trigger_Movement_0
+# 80 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	waitmovement 0
+# 82 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	releaseall
+	end
+
+Rivetshore_Ranger_Ravine_Battle_Trigger_2:
+	end
+
+Rivetshore_Ranger_Ravine_Battle_Trigger_5:
+	end
+
+
+# 79 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+Rivetshore_Ranger_Ravine_Battle_Trigger_Movement_0:
+# 79 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	walk_down
+# 79 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	walk_down
+# 79 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	walk_down
+	step_end
+
 Rivetshore_RangerInstitute_DittoMan_Text_0:
 # 36 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
 	.string "We can take care of Ditto and another\n"

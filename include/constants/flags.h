@@ -312,19 +312,28 @@
 #define FLAG_RIVETSHOREGYM_SPENSER_REWARD                           0x4C6 // gym
 #define FLAG_MIRROHBASECAMPGYM_SPENSER_WATER                        0x4C7 // gym
 #define FLAG_MIRROHBASECAMPGYM_SPENSER_REWARD                       0x4C8 // gym
-#define FLAG_UNUSED_0x4C9                                           0x4C9 // Unused Flag
-#define FLAG_UNUSED_0x4CA                                           0x4CA // Unused Flag
-#define FLAG_UNUSED_0x4CB                                           0x4CB // Unused Flag
-#define FLAG_UNUSED_0x4CC                                           0x4CC // Unused Flag
-#define FLAG_UNUSED_0x4CD                                           0x4CD // Unused Flag
-#define FLAG_UNUSED_0x4CE                                           0x4CE // Unused Flag
-#define FLAG_UNUSED_0x4CF                                           0x4CF // Unused Flag
 
-//Legendaries
-#define FLAG_UNUSED_0x4D0                                           0x4D0 // Unused Flag
+//post-game champion battles
+#define FLAG_HIDE_CHAMPION_GRETA                                    0x64 // 
+#define FLAG_HIDE_CHAMPION_RAVINE                                   0x65 //
+#define FLAG_HIDE_CHAMPION_LYNCH                                    0x66 //
+#define FLAG_HIDE_CHAMPION_MARTHA                                   0x67 //
+#define FLAG_CHAMPION_GRETA_SETUP                                   0x4C9 // Unused Flag
+#define FLAG_CHAMPION_GRETA_COMPLETE                                0x4CA // Unused Flag
+#define FLAG_CHAMPION_RAVINE_SETUP                                  0x4CB // Unused Flag
+#define FLAG_CHAMPION_RAVINE_COMPLETE                               0x4CC // Unused Flag
+#define FLAG_CHAMPION_LYNCH_SETUP                                   0x4CD // Unused Flag
+#define FLAG_CHAMPION_LYNCH_COMPLETE                                0x4CE // Unused Flag
+#define FLAG_CHAMPION_MARTHA_SETUP                                  0x4CF // Unused Flag
+#define FLAG_CHAMPION_MARTHA_COMPLETE                               0x4D0 // Unused Flag
+
+
+//Paradoxes
 #define FLAG_UNUSED_0x4D1                                           0x4D1 // Unused Flag
 #define FLAG_UNUSED_0x4D2                                           0x4D2 // Unused Flag
 #define FLAG_UNUSED_0x4D3                                           0x4D3 // Unused Flag
+
+//Legendaries
 #define FLAG_CELEBI                                                 0x4D4 // Unused Flag
 #define FLAG_DIANCIE                                                0x4D5 // Unused Flag
 #define FLAG_ZERAORA                                                0x4D6 // Unused Flag
@@ -350,10 +359,6 @@
 #define FLAG_MET_TEAM_AQUA_HARBOR            0x61
 #define FLAG_TV_EXPLAINED                    0x62
 #define FLAG_MAUVILLE_GYM_BARRIERS_STATE     0x63
-#define FLAG_MOSSDEEP_GYM_SWITCH_1           0x64 // Leftover from the RS version of Mossdeep Gym, functionally unused
-#define FLAG_MOSSDEEP_GYM_SWITCH_2           0x65 //
-#define FLAG_MOSSDEEP_GYM_SWITCH_3           0x66 //
-#define FLAG_MOSSDEEP_GYM_SWITCH_4           0x67 //
 #define FLAG_OCEANIC_MUSEUM_MET_REPORTER     0x69
 #define FLAG_RECEIVED_HM_STRENGTH            0x6A
 #define FLAG_RECEIVED_HM_ROCK_SMASH          0x6B
