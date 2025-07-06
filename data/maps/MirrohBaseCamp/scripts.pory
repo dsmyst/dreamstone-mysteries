@@ -15,12 +15,22 @@ mapscripts MirrohBaseCamp_MapScripts{
 script MirrohBaseCamp_EventScript_Vendor1{
     lockall
 	faceplayer
-	message(format("Our supplies are limited but useful\nfor a trek up Mt. Mirroh!"))
-	waitmessage
-	pokemart(MirrohBaseCamp_Vendor1_Inventory)
-	msgbox(format("Come again!"), MSGBOX_DEFAULT)
-	release
-	end
+
+    if (flag(FLAG_SYS_GAME_CLEAR)){
+        message(format("The graveyard manager donated her collection of stones to me!\pHave a look!"))
+        waitmessage
+        pokemart(MirrohBaseCamp_Vendor1_Inventory_PostGame)
+        msgbox(format("Come again!"), MSGBOX_DEFAULT)
+        release
+        end
+    } else {
+        message(format("Our supplies are limited but useful\nfor a trek up Mt. Mirroh!"))
+        waitmessage
+        pokemart(MirrohBaseCamp_Vendor1_Inventory)
+        msgbox(format("Come again!"), MSGBOX_DEFAULT)
+        release
+        end
+    }
 }
 
 mart MirrohBaseCamp_Vendor1_Inventory{
@@ -28,6 +38,28 @@ mart MirrohBaseCamp_Vendor1_Inventory{
     ITEM_ICE_HEAL
     ITEM_SUPER_REPEL
     ITEM_ESCAPE_ROPE
+}
+
+mart MirrohBaseCamp_Vendor1_Inventory_PostGame{
+    ITEM_MEDICHAMITE
+    ITEM_AGGRONITE
+    ITEM_ALTARIANITE
+    ITEM_LOPUNNITE
+    ITEM_BANETTITE
+    ITEM_AMPHAROSITE
+    ITEM_GYARADOSITE
+    ITEM_MAWILITE
+    ITEM_GARDEVOIRITE
+    ITEM_GALLADITE
+    ITEM_HOUNDOOMINITE
+    ITEM_METAGROSSITE
+    ITEM_SCIZORITE
+    ITEM_KANGASKHANITE
+    ITEM_PINSIRITE
+    ITEM_SHARPEDONITE
+    ITEM_MANECTITE
+    ITEM_ABSOLITE  
+    ITEM_SABLENITE  
 }
 
 script MirrohBaseCamp_EventScript_Vendor2{
@@ -158,7 +190,7 @@ script MirrohBaseCamp_Martha_OfferMegaStone{
         "Medichamite", "Aggronite", "Altarianite", "Lopunnite", "Banettite",
         "Ampharosite", "Gyaradosite", "Mawilite", "Gardevoirite", "Galladite",
         "Houndoominite", "Metagrossite", "Scizorite", "Kangaskhanite", "Pinsirite",
-        "Sharpedonite", "Manectricite", "Absolite"
+        "Sharpedonite", "Manectricite", "Absolite", "Sablenite"
     )
 
     if (var(VAR_RESULT) == 0) {setvar(VAR_0x8006, ITEM_MEDICHAMITE) goto(MirrohBaseCamp_Martha_GiveMegaStone)}
@@ -179,6 +211,7 @@ script MirrohBaseCamp_Martha_OfferMegaStone{
     if (var(VAR_RESULT) == 15) {setvar(VAR_0x8006, ITEM_SHARPEDONITE) goto(MirrohBaseCamp_Martha_GiveMegaStone)}
     if (var(VAR_RESULT) == 16) {setvar(VAR_0x8006, ITEM_MANECTITE) goto(MirrohBaseCamp_Martha_GiveMegaStone)}
     if (var(VAR_RESULT) == 17) {setvar(VAR_0x8006, ITEM_ABSOLITE) goto(MirrohBaseCamp_Martha_GiveMegaStone)}  
+    if (var(VAR_RESULT) == 18) {setvar(VAR_0x8006, ITEM_SABLENITE) goto(MirrohBaseCamp_Martha_GiveMegaStone)}  
 }
 
 script MirrohBaseCamp_Martha_GiveMegaStone{
