@@ -52,21 +52,81 @@ Rivetshore_RangerInstitute_TryMoveDayCareMan::
 
 Rivetshore_RangerInstitute_DittoMan::
 # 35 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	goto_if_set FLAG_RIVETSHORE_RANGER_DITTO, Rivetshore_RangerInstitute_DittoMan_2
+# 40 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	msgbox Rivetshore_RangerInstitute_DittoMan_Text_1, MSGBOX_NPC
+# 41 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	release
+# 42 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	delay 16
+# 44 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
 	checkitem ITEM_RANGER_CREST
-# 36 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+# 45 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
 	compare VAR_RESULT, TRUE
-	goto_if_eq Rivetshore_RangerInstitute_DittoMan_1
+	goto_if_eq Rivetshore_RangerInstitute_DittoMan_4
 	return
 
-Rivetshore_RangerInstitute_DittoMan_1:
-# 37 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
-	goto_if_unset FLAG_RIVETSHORE_RANGER_DITTO, Rivetshore_RangerInstitute_DittoMan_3
+Rivetshore_RangerInstitute_DittoMan_2:
+# 36 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	msgbox Rivetshore_RangerInstitute_DittoMan_Text_0, MSGBOX_NPC
+	end
+
+Rivetshore_RangerInstitute_DittoMan_4:
+# 46 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	goto_if_unset FLAG_RIVETSHORE_RANGER_DITTO, Rivetshore_RangerInstitute_DittoMan_6
 	return
 
-Rivetshore_RangerInstitute_DittoMan_3:
-# 38 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+Rivetshore_RangerInstitute_DittoMan_6:
+# 47 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	msgbox Rivetshore_RangerInstitute_DittoMan_Text_2
+# 49 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
 	givemon SPECIES_DITTO, 30
-# 39 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+# 50 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
 	setflag FLAG_RIVETSHORE_RANGER_DITTO
-	return
+# 52 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	showmonpic SPECIES_DITTO, 10, 3
+# 53 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 54 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	msgbox Rivetshore_RangerInstitute_DittoMan_Text_3
+# 55 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	waitfanfare
+# 56 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	hidemonpic
+# 58 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	msgbox Rivetshore_RangerInstitute_DittoMan_Text_0
+# 59 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	releaseall
+	end
 
+
+Rivetshore_RangerInstitute_DittoMan_Text_0:
+# 36 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	.string "We can take care of Ditto and another\n"
+	.string "Pokémon for you any time.$"
+
+Rivetshore_RangerInstitute_DittoMan_Text_1:
+# 40 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	.string "I used to manage this facility before\n"
+	.string "Director Ravine promoted me. I like the\l"
+	.string "new responsibility but I miss spending\l"
+	.string "time with Pokemon!\p"
+	.string "Did you know that a Ditto can breed\n"
+	.string "with any other Pokémon?\p"
+	.string "But since Ditto aren't in Cormoria,\n"
+	.string "Director Ravine only lets fully-fledged\l"
+	.string "Pokémon Rangers own one.$"
+
+Rivetshore_RangerInstitute_DittoMan_Text_2:
+# 47 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	.string "Hey! That's a Ranger Shield!\n"
+	.string "Nobody told me you got promoted.\p"
+	.string "Congratulations!\p"
+	.string "In recognition of your promotion,\n"
+	.string "the Ranger Day-Care Facility proudly\l"
+	.string "presents you with a Ditto!$"
+
+Rivetshore_RangerInstitute_DittoMan_Text_3:
+# 54 "data//maps/Rivetshore_RangerInstitute/scripts.pory"
+	.string "The Ranger Day-Care Facility has\n"
+	.string "gifted you a Ditto!$"

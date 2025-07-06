@@ -31,14 +31,38 @@ script Rivetshore_RangerInstitute_TryMoveDayCareMan{
 
 
 script Rivetshore_RangerInstitute_DittoMan{
+
+    if (flag(FLAG_RIVETSHORE_RANGER_DITTO)){
+        msgbox(format("We can take care of Ditto and another Pokémon for you any time."), MSGBOX_NPC)
+        end
+    }    
     //FLAG_RIVETSHORE_RANGER_DITTO
+    msgbox(format("I used to manage this facility before Director Ravine promoted me. I like the new responsibility but I miss spending time with Pokemon!\pDid you know that a Ditto can breed with any other Pokémon?\pBut since Ditto aren't in Cormoria, Director Ravine only lets fully-fledged Pokémon Rangers own one."), MSGBOX_NPC)
+    release
+    delay(16)
+
     checkitem(ITEM_RANGER_CREST)
     if (var(VAR_RESULT) == TRUE){
         if (!flag(FLAG_RIVETSHORE_RANGER_DITTO)){
+            msgbox(format("Hey! That's a Ranger Shield!\nNobody told me you got promoted.\pCongratulations!\pIn recognition of your promotion,\nthe Ranger Day-Care Facility proudly presents you with a Ditto!"))
+
             givemon(SPECIES_DITTO, 30)
             setflag(FLAG_RIVETSHORE_RANGER_DITTO)
+
+            showmonpic(SPECIES_DITTO, 10, 3)
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox(format("The Ranger Day-Care Facility has\ngifted you a Ditto!"))
+            waitfanfare
+            hidemonpic
+
+            msgbox(format("We can take care of Ditto and another Pokémon for you any time."))
+            releaseall
+            end
         }
     }
 }
+
+
+
 
 
