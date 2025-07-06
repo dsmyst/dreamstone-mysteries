@@ -61,6 +61,7 @@ script Rivetshore_Lookout_Ravine_Battle_Trigger{
         special(RemoveCameraObject)
 
         setflag(FLAG_CHAMPION_RAVINE_COMPLETE)
+        clearflag(FLAG_HIDE_CHAMPION_RAVINE)
 
         releaseall
         end

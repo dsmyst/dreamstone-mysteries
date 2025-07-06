@@ -160,6 +160,7 @@ Debug_EventScript_Script_4::
 	end
 
 Debug_EventScript_Script_5::
+	trainerbattle_no_intro TRAINER_CHAMPION_LYNCH, Debug_EventScript_Text_OffensiveIVs
 	release
 	end
 

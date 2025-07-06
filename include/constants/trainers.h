@@ -134,21 +134,21 @@
 #define TRAINER_PIC_LEADER_VINIEL         112
 #define TRAINER_PIC_LEADER_JANIA          113
 #define TRAINER_PIC_LEADER_RAAZI          114
-#define TRAINER_PIC_LEADER_FINAL          115
 
-#define TRAINER_PIC_MODEL                 116
-#define TRAINER_PIC_SKIIER_F              117
-#define TRAINER_PIC_KIMONO_GIRL           118
+#define TRAINER_PIC_MODEL                 115
+#define TRAINER_PIC_SKIIER_F              116
+#define TRAINER_PIC_KIMONO_GIRL           117
 
-#define TRAINER_PIC_BACKPACKER            119
-#define TRAINER_PIC_FIREFIGHTER           120
-#define TRAINER_PIC_FAIRY_LADY            121
-#define TRAINER_PIC_COOL_GIRL             122
-#define TRAINER_PIC_WAITRESS              123
-#define TRAINER_PIC_COOL_GUY              124
-#define TRAINER_PIC_JANIA_ARTIST          125
-#define TRAINER_PIC_RUE                   126
-#define TRAINER_PIC_QWILSQUAD_BOSS        127
+#define TRAINER_PIC_BACKPACKER            118
+#define TRAINER_PIC_FIREFIGHTER           119
+#define TRAINER_PIC_FAIRY_LADY            120
+#define TRAINER_PIC_COOL_GIRL             121
+#define TRAINER_PIC_WAITRESS              122
+#define TRAINER_PIC_COOL_GUY              123
+#define TRAINER_PIC_JANIA_ARTIST          124
+#define TRAINER_PIC_RUE                   125
+#define TRAINER_PIC_QWILSQUAD_BOSS        126
+#define TRAINER_PIC_CHAMPION_LYNCH        127
 
 #define TRAINER_PIC_COUNT                 128
 

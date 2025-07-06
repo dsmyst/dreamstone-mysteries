@@ -7,313 +7,381 @@ MirrohBaseCamp_Houses_Historian::
 	lockall
 # 7 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	faceplayer
-# 9 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	goto_if_set FLAG_MIRROHBASECAMP_HISTORIAN, MirrohBaseCamp_Houses_Historian_2
-# 33 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	speakername MirrohBaseCamp_Houses_Historian_Text_0
-# 34 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	msgbox MirrohBaseCamp_Houses_Historian_Text_5
-# 35 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	release
-# 36 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	applymovement 1, MirrohBaseCamp_Houses_Historian_Movement_0
-# 37 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	waitmovement 0
-# 38 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	delay 16
-# 39 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	speakername MirrohBaseCamp_Houses_Historian_Text_0
-# 40 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	msgbox MirrohBaseCamp_Houses_Historian_Text_6
-# 41 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	release
-# 42 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	delay 30
-# 45 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	checkitem ITEM_ANCIENT_STONE
-# 46 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	compare VAR_RESULT, 1
-	goto_if_eq MirrohBaseCamp_Houses_Historian_9
-MirrohBaseCamp_Houses_Historian_8:
-# 70 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	speakername MirrohBaseCamp_Houses_Historian_Text_0
-# 71 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	msgbox MirrohBaseCamp_Houses_Historian_Text_10
-# 72 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	release
-# 73 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	delay 30
-# 74 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	speakername MirrohBaseCamp_Houses_Historian_Text_0
-# 75 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	msgbox MirrohBaseCamp_Houses_Historian_Text_11
-# 76 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	release
+# 10 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	goto_if_set FLAG_SYS_GAME_CLEAR, MirrohBaseCamp_Houses_Historian_2
+MirrohBaseCamp_Houses_Historian_1:
+# 53 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	goto_if_set FLAG_MIRROHBASECAMP_HISTORIAN, MirrohBaseCamp_Houses_Historian_5
 # 77 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	delay 16
+	speakername MirrohBaseCamp_Houses_Historian_Text_0
 # 78 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	speakername MirrohBaseCamp_Houses_Historian_Text_0
+	msgbox MirrohBaseCamp_Houses_Historian_Text_7
 # 79 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	applymovement 1, MirrohBaseCamp_Houses_Historian_Movement_0
-# 80 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	waitmovement 0
-# 81 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	speakername MirrohBaseCamp_Houses_Historian_Text_0
-# 82 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	msgbox MirrohBaseCamp_Houses_Historian_Text_12
-# 84 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	goto_if_set FLAG_BADGE05_GET, MirrohBaseCamp_Houses_Historian_15
-# 93 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	speakername MirrohBaseCamp_Houses_Historian_Text_0
-# 94 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	msgbox MirrohBaseCamp_Houses_Historian_Text_14
-# 95 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	release
+# 80 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	applymovement 1, MirrohBaseCamp_Houses_Historian_Movement_4
+# 81 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	waitmovement 0
+# 82 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	delay 16
+# 83 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	speakername MirrohBaseCamp_Houses_Historian_Text_0
+# 84 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	msgbox MirrohBaseCamp_Houses_Historian_Text_8
+# 85 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	release
+# 86 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	delay 30
+# 89 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	checkitem ITEM_ANCIENT_STONE
+# 90 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	compare VAR_RESULT, 1
+	goto_if_eq MirrohBaseCamp_Houses_Historian_15
 MirrohBaseCamp_Houses_Historian_14:
-# 98 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 114 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	speakername MirrohBaseCamp_Houses_Historian_Text_0
+# 115 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	msgbox MirrohBaseCamp_Houses_Historian_Text_12
+# 116 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	release
+# 117 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	delay 30
+# 118 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	speakername MirrohBaseCamp_Houses_Historian_Text_0
+# 119 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	msgbox MirrohBaseCamp_Houses_Historian_Text_13
+# 120 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	release
+# 121 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	delay 16
+# 122 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	speakername MirrohBaseCamp_Houses_Historian_Text_0
+# 123 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	applymovement 1, MirrohBaseCamp_Houses_Historian_Movement_4
+# 124 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	waitmovement 0
+# 125 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	speakername MirrohBaseCamp_Houses_Historian_Text_0
+# 126 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	msgbox MirrohBaseCamp_Houses_Historian_Text_14
+# 128 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	goto_if_set FLAG_BADGE05_GET, MirrohBaseCamp_Houses_Historian_24
+# 137 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	speakername MirrohBaseCamp_Houses_Historian_Text_0
+# 138 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	msgbox MirrohBaseCamp_Houses_Historian_Text_16
+# 139 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	release
+MirrohBaseCamp_Houses_Historian_23:
+# 142 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	completesubquest QUEST_DREAMSTONE_MYSTERIES, SUB_QUEST_6
-# 99 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 143 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	setflag FLAG_MIRROHBASECAMP_HISTORIAN
 	end
 
 MirrohBaseCamp_Houses_Historian_2:
-# 10 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	goto_if_set FLAG_MIRROH_GOT_OLD_BONE, MirrohBaseCamp_Houses_Historian_5
-# 16 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	goto_if_set FLAG_BADGE05_GET, MirrohBaseCamp_Houses_Historian_11
-# 26 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 11 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	goto_if_set FLAG_CHAMPION_MARTHA_COMPLETE, MirrohBaseCamp_Houses_Historian_8
+# 14 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	speakername MirrohBaseCamp_Houses_Historian_Text_0
+# 15 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	msgbox MirrohBaseCamp_Houses_Historian_Text_1
+# 16 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	release
+# 19 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	specialvar VAR_RESULT, GetPlayerFacingDirection
+# 20 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	compare VAR_RESULT, DIR_EAST
+	goto_if_eq MirrohBaseCamp_Houses_Historian_18
+MirrohBaseCamp_Houses_Historian_17:
+# 25 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	applymovement 1, MirrohBaseCamp_Houses_Historian_Movement_1
+# 26 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	waitmovement 0
 # 27 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	msgbox MirrohBaseCamp_Houses_Historian_Text_4, MSGBOX_NPC
+	removeobject 1
 # 28 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	delay 8
+# 29 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	speakername MirrohBaseCamp_Houses_Historian_Text_0
+# 30 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	msgbox MirrohBaseCamp_Houses_Historian_Text_2
+# 31 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	release
+# 32 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	delay 16
+# 34 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	playmoncry SPECIES_HOUNDSTONE, CRY_MODE_NORMAL
+# 35 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	applymovement 4, MirrohBaseCamp_Houses_Historian_Movement_2
+# 36 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	waitmovement 0
+# 37 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	delay 24
+# 39 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	applymovement 4, MirrohBaseCamp_Houses_Historian_Movement_3
+# 40 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	waitmovement 0
+# 41 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	removeobject 4
+# 43 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	setflag FLAG_HIDE_MIRROHBASECAMP_HISTORIAN
+# 44 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	setflag FLAG_HIDE_CHAMPION_MARTHA
+# 45 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	setflag FLAG_CHAMPION_MARTHA_SETUP
+# 47 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	releaseall
 	end
 
 MirrohBaseCamp_Houses_Historian_5:
-# 11 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 54 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	goto_if_set FLAG_MIRROH_GOT_OLD_BONE, MirrohBaseCamp_Houses_Historian_11
+# 60 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	goto_if_set FLAG_BADGE05_GET, MirrohBaseCamp_Houses_Historian_20
+# 70 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	speakername MirrohBaseCamp_Houses_Historian_Text_0
-# 12 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	msgbox MirrohBaseCamp_Houses_Historian_Text_1, MSGBOX_NPC
-# 13 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 71 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	msgbox MirrohBaseCamp_Houses_Historian_Text_6, MSGBOX_NPC
+# 72 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	releaseall
 	end
 
-MirrohBaseCamp_Houses_Historian_9:
-# 47 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	applymovement 1, MirrohBaseCamp_Houses_Historian_Movement_1
-# 48 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	waitmovement 0
-# 49 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	delay 16
-# 50 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	speakername MirrohBaseCamp_Houses_Historian_Text_0
-# 51 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	msgbox MirrohBaseCamp_Houses_Historian_Text_7
-# 52 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	release
-# 53 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	delay 8
-# 54 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	removeitem ITEM_ANCIENT_STONE
-# 55 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	playfanfare MUS_LEVEL_UP
-# 56 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	message MirrohBaseCamp_Houses_Historian_Text_8
-# 57 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	waitfanfare
-# 58 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	release
-# 59 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	delay 8
-# 60 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	applymovement 1, MirrohBaseCamp_Houses_Historian_Movement_0
-# 61 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	waitmovement 0
-# 62 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	delay 16
-# 63 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	speakername MirrohBaseCamp_Houses_Historian_Text_0
-# 64 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	msgbox MirrohBaseCamp_Houses_Historian_Text_9
-# 65 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	giveitem ITEM_AERODACTYLITE
-# 66 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	release
-# 67 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	delay 16
-	goto MirrohBaseCamp_Houses_Historian_8
+MirrohBaseCamp_Houses_Historian_8:
+	goto MirrohBaseCamp_Houses_Historian_1
 
 MirrohBaseCamp_Houses_Historian_11:
-# 17 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	msgbox MirrohBaseCamp_Houses_Historian_Text_2
-# 18 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	release
-# 19 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	setflag FLAG_MIRROH_GOT_OLD_BONE
-# 20 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	giveitem ITEM_RARE_BONE
-# 21 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 55 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	speakername MirrohBaseCamp_Houses_Historian_Text_0
-# 22 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	msgbox MirrohBaseCamp_Houses_Historian_Text_3
-# 23 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 56 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	msgbox MirrohBaseCamp_Houses_Historian_Text_3, MSGBOX_NPC
+# 57 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	releaseall
 	end
 
 MirrohBaseCamp_Houses_Historian_15:
-# 85 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	msgbox MirrohBaseCamp_Houses_Historian_Text_13
-# 86 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	release
-# 87 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	giveitem ITEM_RARE_BONE
-# 88 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	setflag FLAG_MIRROH_GOT_OLD_BONE
-# 89 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	speakername MirrohBaseCamp_Houses_Historian_Text_0
-# 90 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	msgbox MirrohBaseCamp_Houses_Historian_Text_3
 # 91 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	applymovement 1, MirrohBaseCamp_Houses_Historian_Movement_5
+# 92 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	waitmovement 0
+# 93 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	delay 16
+# 94 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	speakername MirrohBaseCamp_Houses_Historian_Text_0
+# 95 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	msgbox MirrohBaseCamp_Houses_Historian_Text_9
+# 96 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	release
+# 97 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	delay 8
+# 98 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	removeitem ITEM_ANCIENT_STONE
+# 99 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	playfanfare MUS_LEVEL_UP
+# 100 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	message MirrohBaseCamp_Houses_Historian_Text_10
+# 101 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	waitfanfare
+# 102 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	release
+# 103 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	delay 8
+# 104 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	applymovement 1, MirrohBaseCamp_Houses_Historian_Movement_4
+# 105 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	waitmovement 0
+# 106 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	delay 16
+# 107 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	speakername MirrohBaseCamp_Houses_Historian_Text_0
+# 108 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	msgbox MirrohBaseCamp_Houses_Historian_Text_11
+# 109 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	giveitem ITEM_AERODACTYLITE
+# 110 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	release
+# 111 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	delay 16
 	goto MirrohBaseCamp_Houses_Historian_14
+
+MirrohBaseCamp_Houses_Historian_18:
+# 21 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, MirrohBaseCamp_Houses_Historian_Movement_0
+# 22 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	waitmovement 0
+	goto MirrohBaseCamp_Houses_Historian_17
+
+MirrohBaseCamp_Houses_Historian_20:
+# 61 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	msgbox MirrohBaseCamp_Houses_Historian_Text_4
+# 62 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	release
+# 63 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	setflag FLAG_MIRROH_GOT_OLD_BONE
+# 64 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	giveitem ITEM_RARE_BONE
+# 65 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	speakername MirrohBaseCamp_Houses_Historian_Text_0
+# 66 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	msgbox MirrohBaseCamp_Houses_Historian_Text_5
+# 67 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	releaseall
+	end
+
+MirrohBaseCamp_Houses_Historian_24:
+# 129 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	msgbox MirrohBaseCamp_Houses_Historian_Text_15
+# 130 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	release
+# 131 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	giveitem ITEM_RARE_BONE
+# 132 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	setflag FLAG_MIRROH_GOT_OLD_BONE
+# 133 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	speakername MirrohBaseCamp_Houses_Historian_Text_0
+# 134 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	msgbox MirrohBaseCamp_Houses_Historian_Text_5
+# 135 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	release
+	goto MirrohBaseCamp_Houses_Historian_23
 
 
 MirrohBaseCamp_Houndstone::
-# 106 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 150 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	playmoncry SPECIES_HOUNDSTONE, CRY_MODE_NORMAL
-# 107 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 151 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houndstone_Text_0, MSGBOX_NPC
 	end
 
 
 MirrohBaseCamp_Houses_MasterballGuy::
-# 119 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 163 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_MASTERBALL_QUEST, 2
 	goto_if_eq MirrohBaseCamp_Houses_MasterballGuy_2
 MirrohBaseCamp_Houses_MasterballGuy_1:
-# 123 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 167 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_MASTERBALL_QUEST, 1
 	goto_if_eq MirrohBaseCamp_Houses_MasterballGuy_5
 MirrohBaseCamp_Houses_MasterballGuy_4:
-# 155 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 199 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_MASTERBALL_QUEST, 0
 	goto_if_eq MirrohBaseCamp_Houses_MasterballGuy_8
 MirrohBaseCamp_Houses_MasterballGuy_7:
-# 173 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 217 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	releaseall
 	end
 
 MirrohBaseCamp_Houses_MasterballGuy_2:
-# 120 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 164 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballGuy_Text_0
 	goto MirrohBaseCamp_Houses_MasterballGuy_1
 
 MirrohBaseCamp_Houses_MasterballGuy_5:
-# 124 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 168 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballGuy_Text_1, MSGBOX_NPC
-# 126 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 170 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	checkitem ITEM_CASTELIACONE
-# 127 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 171 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_RESULT, 0
 	goto_if_eq MirrohBaseCamp_Houses_MasterballGuy_11
-# 131 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 175 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	checkitem ITEM_OLD_GATEAU
-# 132 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 176 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_RESULT, 0
 	goto_if_eq MirrohBaseCamp_Houses_MasterballGuy_14
-# 136 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 180 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	checkitem ITEM_LAVA_COOKIE
-# 137 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 181 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_RESULT, 0
 	goto_if_eq MirrohBaseCamp_Houses_MasterballGuy_17
-# 143 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 187 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	removeitem ITEM_CASTELIACONE
-# 144 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 188 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	removeitem ITEM_OLD_GATEAU
-# 145 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 189 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	removeitem ITEM_LAVA_COOKIE
-# 147 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 191 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballGuy_Text_5
-# 148 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 192 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	playfanfare MUS_OBTAIN_ITEM
-# 149 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 193 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	waitfanfare
-# 150 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 194 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballGuy_Text_6, MSGBOX_NPC
-# 151 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 195 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	giveitem ITEM_MASTER_BALL
-# 152 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 196 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	setvar VAR_MASTERBALL_QUEST, 2
 	goto MirrohBaseCamp_Houses_MasterballGuy_4
 
 MirrohBaseCamp_Houses_MasterballGuy_8:
-# 156 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 200 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballGuy_Text_7, MSGBOX_NPC
-# 157 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 201 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	setvar VAR_0x8006, ITEM_MASTER_BALL
-# 158 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 202 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	showitemdescription
-# 159 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 203 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballGuy_Text_8, MSGBOX_NPC
-# 160 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 204 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	hideitemdescription
-# 161 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 205 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballGuy_Text_9
-# 162 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 206 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	release
-# 163 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 207 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	delay 16
-# 164 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	applymovement 2, MirrohBaseCamp_Houses_Historian_Movement_0
-# 165 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 208 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	applymovement 2, MirrohBaseCamp_Houses_Historian_Movement_4
+# 209 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	waitmovement 0
-# 166 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 210 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	delay 16
-# 167 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 211 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballGuy_Text_10
-# 168 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 212 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	release
-# 171 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 215 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	setvar VAR_MASTERBALL_QUEST, 1
 	goto MirrohBaseCamp_Houses_MasterballGuy_7
 
 MirrohBaseCamp_Houses_MasterballGuy_11:
-# 128 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 172 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballGuy_Text_2, MSGBOX_NPC
 	end
 
 MirrohBaseCamp_Houses_MasterballGuy_14:
-# 133 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 177 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballGuy_Text_3, MSGBOX_NPC
 	end
 
 MirrohBaseCamp_Houses_MasterballGuy_17:
-# 138 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 182 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballGuy_Text_4, MSGBOX_NPC
 	end
 
 
 MirrohBaseCamp_Houses_MasterballFriend::
-# 178 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 222 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	lockall
-# 179 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 223 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	faceplayer
-# 181 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 225 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	goto_if_set FLAG_SKIP_BALL_CHANGER, MirrohBaseCamp_Houses_MasterballFriend_2
-# 184 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 228 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	setflag FLAG_SKIP_BALL_CHANGER
-# 185 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 229 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballFriend_Text_0
 MirrohBaseCamp_Houses_MasterballFriend_1:
-# 188 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 232 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballFriend_Text_1, MSGBOX_YESNO
-# 191 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 235 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_RESULT, 1
 	goto_if_eq MirrohBaseCamp_Houses_MasterballFriend_6
-# 237 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 281 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballFriend_Text_2
 MirrohBaseCamp_Houses_MasterballFriend_5:
-# 240 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 284 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	releaseall
 	end
 
@@ -321,202 +389,251 @@ MirrohBaseCamp_Houses_MasterballFriend_2:
 	goto MirrohBaseCamp_Houses_MasterballFriend_1
 
 MirrohBaseCamp_Houses_MasterballFriend_6:
-# 192 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 236 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	special ChoosePartyMon
-# 193 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 237 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	waitstate
-# 194 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 238 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_0x8004, PARTY_NOTHING_CHOSEN
 	goto_if_eq MirrohBaseCamp_Houses_MasterballFriend_10
-# 200 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 244 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	message MirrohBaseCamp_Houses_MasterballFriend_Text_3
-# 202 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 246 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	dynmultipush MirrohBaseCamp_Houses_MasterballFriend_Text_4, ITEM_POKE_BALL
-# 203 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 247 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	dynmultipush MirrohBaseCamp_Houses_MasterballFriend_Text_5, ITEM_GREAT_BALL
-# 204 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 248 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	dynmultipush MirrohBaseCamp_Houses_MasterballFriend_Text_6, ITEM_ULTRA_BALL
-# 205 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 249 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	dynmultipush MirrohBaseCamp_Houses_MasterballFriend_Text_7, ITEM_DIVE_BALL
-# 206 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 250 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	dynmultipush MirrohBaseCamp_Houses_MasterballFriend_Text_8, ITEM_HEAL_BALL
-# 207 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 251 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	dynmultipush MirrohBaseCamp_Houses_MasterballFriend_Text_9, ITEM_QUICK_BALL
-# 208 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 252 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	dynmultipush MirrohBaseCamp_Houses_MasterballFriend_Text_10, ITEM_LUXURY_BALL
-# 209 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 253 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	dynmultipush MirrohBaseCamp_Houses_MasterballFriend_Text_11, ITEM_DREAM_BALL
-# 210 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 254 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	dynmultistack 0, 0, TRUE, 6, FALSE, 0, DYN_MULTICHOICE_CB_SHOW_ITEM
-# 212 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 256 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_RESULT, ITEM_POKE_BALL
 	goto_if_eq MirrohBaseCamp_Houses_MasterballFriend_13
 MirrohBaseCamp_Houses_MasterballFriend_12:
-# 213 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 257 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_RESULT, ITEM_GREAT_BALL
 	goto_if_eq MirrohBaseCamp_Houses_MasterballFriend_16
 MirrohBaseCamp_Houses_MasterballFriend_15:
-# 214 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 258 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_RESULT, ITEM_ULTRA_BALL
 	goto_if_eq MirrohBaseCamp_Houses_MasterballFriend_19
 MirrohBaseCamp_Houses_MasterballFriend_18:
-# 215 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 259 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_RESULT, ITEM_DIVE_BALL
 	goto_if_eq MirrohBaseCamp_Houses_MasterballFriend_22
 MirrohBaseCamp_Houses_MasterballFriend_21:
-# 216 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 260 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_RESULT, ITEM_HEAL_BALL
 	goto_if_eq MirrohBaseCamp_Houses_MasterballFriend_25
 MirrohBaseCamp_Houses_MasterballFriend_24:
-# 217 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 261 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_RESULT, ITEM_QUICK_BALL
 	goto_if_eq MirrohBaseCamp_Houses_MasterballFriend_28
 MirrohBaseCamp_Houses_MasterballFriend_27:
-# 218 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 262 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_RESULT, ITEM_LUXURY_BALL
 	goto_if_eq MirrohBaseCamp_Houses_MasterballFriend_31
 MirrohBaseCamp_Houses_MasterballFriend_30:
-# 219 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 263 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_RESULT, ITEM_DREAM_BALL
 	goto_if_eq MirrohBaseCamp_Houses_MasterballFriend_34
 MirrohBaseCamp_Houses_MasterballFriend_33:
-# 222 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 266 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	checkitem VAR_0x8005
-# 224 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 268 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	compare VAR_RESULT, 0
 	goto_if_eq MirrohBaseCamp_Houses_MasterballFriend_37
-# 229 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 273 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	removeitem VAR_0x8005
-# 230 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 274 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballFriend_Text_13, MSGBOX_SIGN
-# 231 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 275 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	special SetMonPokeball
-# 232 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 276 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballFriend_Text_14
-# 233 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 277 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	release
-# 234 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 278 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	playse SE_BALL
-# 235 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 279 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballFriend_Text_15
 	goto MirrohBaseCamp_Houses_MasterballFriend_5
 
 MirrohBaseCamp_Houses_MasterballFriend_10:
-# 195 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 239 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballFriend_Text_2
-# 196 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 240 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	releaseall
 	end
 
 MirrohBaseCamp_Houses_MasterballFriend_13:
-# 212 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 256 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	setvar VAR_0x8005, ITEM_POKE_BALL
-# 212 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 256 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	bufferitemname STR_VAR_1, ITEM_POKE_BALL
 	goto MirrohBaseCamp_Houses_MasterballFriend_12
 
 MirrohBaseCamp_Houses_MasterballFriend_16:
-# 213 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 257 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	setvar VAR_0x8005, ITEM_GREAT_BALL
-# 213 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 257 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	bufferitemname STR_VAR_1, ITEM_GREAT_BALL
 	goto MirrohBaseCamp_Houses_MasterballFriend_15
 
 MirrohBaseCamp_Houses_MasterballFriend_19:
-# 214 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 258 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	setvar VAR_0x8005, ITEM_ULTRA_BALL
-# 214 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 258 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	bufferitemname STR_VAR_1, ITEM_ULTRA_BALL
 	goto MirrohBaseCamp_Houses_MasterballFriend_18
 
 MirrohBaseCamp_Houses_MasterballFriend_22:
-# 215 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 259 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	setvar VAR_0x8005, ITEM_DIVE_BALL
-# 215 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 259 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	bufferitemname STR_VAR_1, ITEM_DIVE_BALL
 	goto MirrohBaseCamp_Houses_MasterballFriend_21
 
 MirrohBaseCamp_Houses_MasterballFriend_25:
-# 216 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 260 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	setvar VAR_0x8005, ITEM_HEAL_BALL
-# 216 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 260 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	bufferitemname STR_VAR_1, ITEM_HEAL_BALL
 	goto MirrohBaseCamp_Houses_MasterballFriend_24
 
 MirrohBaseCamp_Houses_MasterballFriend_28:
-# 217 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 261 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	setvar VAR_0x8005, ITEM_QUICK_BALL
-# 217 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 261 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	bufferitemname STR_VAR_1, ITEM_QUICK_BALL
 	goto MirrohBaseCamp_Houses_MasterballFriend_27
 
 MirrohBaseCamp_Houses_MasterballFriend_31:
-# 218 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 262 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	setvar VAR_0x8005, ITEM_LUXURY_BALL
-# 218 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 262 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	bufferitemname STR_VAR_1, ITEM_LUXURY_BALL
 	goto MirrohBaseCamp_Houses_MasterballFriend_30
 
 MirrohBaseCamp_Houses_MasterballFriend_34:
-# 219 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 263 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	setvar VAR_0x8005, ITEM_DREAM_BALL
-# 219 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 263 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	bufferitemname STR_VAR_1, ITEM_DREAM_BALL
 	goto MirrohBaseCamp_Houses_MasterballFriend_33
 
 MirrohBaseCamp_Houses_MasterballFriend_37:
-# 225 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 269 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	msgbox MirrohBaseCamp_Houses_MasterballFriend_Text_12
-# 226 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 270 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	releaseall
 	end
 
 
-# 36 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 21 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 MirrohBaseCamp_Houses_Historian_Movement_0:
-# 36 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 21 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	walk_up
+# 21 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	face_down
+	step_end
+
+# 25 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Movement_1:
+# 25 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	walk_left
+# 25 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	walk_left
+# 25 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	walk_left
+# 25 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	walk_down
+# 25 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	walk_down
+	step_end
+
+# 35 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Movement_2:
+# 35 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	emote_exclamation_mark
+# 35 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	jump_in_place_down
+	step_end
+
+# 39 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Movement_3:
+# 39 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	jump_2_down
+# 39 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	jump_2_down
+	step_end
+
+# 80 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Movement_4:
+# 80 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	emote_exclamation_mark
 	step_end
 
-# 47 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-MirrohBaseCamp_Houses_Historian_Movement_1:
-# 47 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 91 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Movement_5:
+# 91 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	emote_question_mark
 	step_end
 
 MirrohBaseCamp_Houses_Historian_Text_0:
-# 11 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 14 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Martha$"
 
 MirrohBaseCamp_Houses_Historian_Text_1:
-# 12 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
-	.string "Hello child. How are you?$"
+# 15 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	.string "So you've finally come.\p"
+	.string "I'll see you in a cold, dark cave where\n"
+	.string "water flows.$"
 
 MirrohBaseCamp_Houses_Historian_Text_2:
-# 17 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 30 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	.string "Come Houndstone!\n"
+	.string "We're going for a long walk.$"
+
+MirrohBaseCamp_Houses_Historian_Text_3:
+# 56 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+	.string "Hello child. How are you?$"
+
+MirrohBaseCamp_Houses_Historian_Text_4:
+# 61 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "I found it! Take this and give it to the\n"
 	.string "Greavard playing outside. It'll distract\l"
 	.string "them. Hopefully they'll come home.$"
 
-MirrohBaseCamp_Houses_Historian_Text_3:
-# 22 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Text_5:
+# 66 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "As for me, I must get back to my\n"
 	.string "reading...$"
 
-MirrohBaseCamp_Houses_Historian_Text_4:
-# 27 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Text_6:
+# 71 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "How strange...I'm sure I had a bone for\n"
 	.string "Greavard somewhere...$"
 
-MirrohBaseCamp_Houses_Historian_Text_5:
-# 34 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Text_7:
+# 78 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Yes, child. Tell me. What's the story?\p"
 	.string "...\p"
 	.string "...\p"
 	.string "...$"
 
-MirrohBaseCamp_Houses_Historian_Text_6:
-# 40 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Text_8:
+# 84 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "I see...so this Team Somber wants to\n"
 	.string "re-enter the past using the\l"
 	.string "dreamstones? How interesting. To think\l"
@@ -524,18 +641,18 @@ MirrohBaseCamp_Houses_Historian_Text_6:
 	.string "can control a dreamstone...incredible,\l"
 	.string "but terrifying at the same time.$"
 
-MirrohBaseCamp_Houses_Historian_Text_7:
-# 51 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Text_9:
+# 95 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "You brought something back from there?\n"
 	.string "Shall we take a look?$"
 
-MirrohBaseCamp_Houses_Historian_Text_8:
-# 56 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Text_10:
+# 100 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "{PLAYER} gave Martha the Ancient\n"
 	.string "Stone.$"
 
-MirrohBaseCamp_Houses_Historian_Text_9:
-# 64 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Text_11:
+# 108 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Oh my! What a find!\p"
 	.string "This is a Mega Stone, {PLAYER}. It's to\n"
 	.string "be used by a rare ancient Pokémon\l"
@@ -543,8 +660,8 @@ MirrohBaseCamp_Houses_Historian_Text_9:
 	.string "An incredible piece of ancient history.\n"
 	.string "You must treasure it!$"
 
-MirrohBaseCamp_Houses_Historian_Text_10:
-# 71 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Text_12:
+# 115 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "You must have seen it yourself,\n"
 	.string "{PLAYER}. To the best of our\l"
 	.string "knowledge, Ancient Cormoria was a\l"
@@ -564,8 +681,8 @@ MirrohBaseCamp_Houses_Historian_Text_10:
 	.string "answer. What kind of monstrous being\l"
 	.string "could do something like that?$"
 
-MirrohBaseCamp_Houses_Historian_Text_11:
-# 75 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Text_13:
+# 119 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "For a while this mystery - the mystery\n"
 	.string "of the Ancient Terror - remained\l"
 	.string "unsolved. But then, deep inside Mt.\l"
@@ -581,8 +698,8 @@ MirrohBaseCamp_Houses_Historian_Text_11:
 	.string "something with this Ancient Terror,\l"
 	.string "although what exactly, I can't say.$"
 
-MirrohBaseCamp_Houses_Historian_Text_12:
-# 82 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Text_14:
+# 126 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Oh my! Would you look at the time? I've\n"
 	.string "rambled on for too long. Apologies,\l"
 	.string "{PLAYER}. I hope this information\l"
@@ -590,14 +707,14 @@ MirrohBaseCamp_Houses_Historian_Text_12:
 	.string "You should go to Mt. Mirroh and see the\n"
 	.string "cave painting for yourself.$"
 
-MirrohBaseCamp_Houses_Historian_Text_13:
-# 85 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Text_15:
+# 129 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Here - take this and give it to the\n"
 	.string "Greavard playing outside. It'll distract\l"
 	.string "them. Hopefully they'll come home.$"
 
-MirrohBaseCamp_Houses_Historian_Text_14:
-# 94 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+MirrohBaseCamp_Houses_Historian_Text_16:
+# 138 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Now, I must do something about the\n"
 	.string "Greavard playing by the market.\l"
 	.string "Perhaps one could distract them with a\l"
@@ -608,35 +725,35 @@ MirrohBaseCamp_Houses_Historian_Text_14:
 	.string "before they close.$"
 
 MirrohBaseCamp_Houndstone_Text_0:
-# 107 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 151 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Houndstone is walking slowly.\n"
 	.string "It's getting old now...$"
 
 MirrohBaseCamp_Houses_MasterballGuy_Text_0:
-# 120 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 164 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Hello {PLAYER}!$"
 
 MirrohBaseCamp_Houses_MasterballGuy_Text_1:
-# 124 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 168 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Did you get everything?$"
 
 MirrohBaseCamp_Houses_MasterballGuy_Text_2:
-# 128 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 172 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "You didn't bring the Mirroh Cone!\p"
 	.string "Come back with everything.$"
 
 MirrohBaseCamp_Houses_MasterballGuy_Text_3:
-# 133 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 177 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "You didn't bring the Apple Pie!\p"
 	.string "Come back with everything.$"
 
 MirrohBaseCamp_Houses_MasterballGuy_Text_4:
-# 138 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 182 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "You didn't bring the Lava Cookie!\p"
 	.string "Come back with everything.$"
 
 MirrohBaseCamp_Houses_MasterballGuy_Text_5:
-# 147 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 191 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Aha! We've got everything we need right\n"
 	.string "here...\p"
 	.string "...so first I need the crust of the pie...\n"
@@ -648,14 +765,14 @@ MirrohBaseCamp_Houses_MasterballGuy_Text_5:
 	.string "...$"
 
 MirrohBaseCamp_Houses_MasterballGuy_Text_6:
-# 150 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 194 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "And there we go! A brand-new Master\n"
 	.string "Ball, just for you!\p"
 	.string "No, I didn't pull it out of my pocket. Are\n"
 	.string "you seeing things?$"
 
 MirrohBaseCamp_Houses_MasterballGuy_Text_7:
-# 156 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 200 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "A friend of Rue's?\p"
 	.string "...\p"
 	.string "So you're his new assistant. Nice to\n"
@@ -665,13 +782,13 @@ MirrohBaseCamp_Houses_MasterballGuy_Text_7:
 	.string "Poké Ball craftsman instead!$"
 
 MirrohBaseCamp_Houses_MasterballGuy_Text_8:
-# 159 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 203 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "A few years ago, I finally perfected my\n"
 	.string "opus magnum - the Master Ball!\p"
 	.string "Looks beautiful, doesn't it?$"
 
 MirrohBaseCamp_Houses_MasterballGuy_Text_9:
-# 161 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 205 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Since you're Rue's assistant and he's an\n"
 	.string "old friend, how about I do you a favour?\p"
 	.string "I can make you one...if you get me the\n"
@@ -682,7 +799,7 @@ MirrohBaseCamp_Houses_MasterballGuy_Text_9:
 	.string "...and one Mirroh Cone!$"
 
 MirrohBaseCamp_Houses_MasterballGuy_Text_10:
-# 167 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 211 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Of course these aren't for me!\n"
 	.string "These are for the Master Ball!\p"
 	.string "Are you accusing me of using you?\p"
@@ -690,7 +807,7 @@ MirrohBaseCamp_Houses_MasterballGuy_Text_10:
 	.string "Ahem. I'll be waiting here!$"
 
 MirrohBaseCamp_Houses_MasterballFriend_Text_0:
-# 185 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 229 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "This man here is the only person in all\n"
 	.string "of Cormoria who can make a Master Ball.\l"
 	.string "A master of the craft!\p"
@@ -698,68 +815,68 @@ MirrohBaseCamp_Houses_MasterballFriend_Text_0:
 	.string "of tricks up my sleeve too!$"
 
 MirrohBaseCamp_Houses_MasterballFriend_Text_1:
-# 188 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 232 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "I can change the Poké Balls of your\n"
 	.string "Pokémon if you bring me the Poké Ball!\p"
 	.string "Would you like me to?$"
 
 MirrohBaseCamp_Houses_MasterballFriend_Text_2:
-# 195 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 239 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Come back any time!$"
 
 MirrohBaseCamp_Houses_MasterballFriend_Text_3:
-# 200 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 244 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Now which Poké Ball should I switch to?$"
 
 MirrohBaseCamp_Houses_MasterballFriend_Text_4:
-# 202 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 246 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Poké Ball$"
 
 MirrohBaseCamp_Houses_MasterballFriend_Text_5:
-# 203 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 247 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Great Ball$"
 
 MirrohBaseCamp_Houses_MasterballFriend_Text_6:
-# 204 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 248 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Ultra Ball$"
 
 MirrohBaseCamp_Houses_MasterballFriend_Text_7:
-# 205 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 249 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Dive Ball$"
 
 MirrohBaseCamp_Houses_MasterballFriend_Text_8:
-# 206 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 250 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Heal Ball$"
 
 MirrohBaseCamp_Houses_MasterballFriend_Text_9:
-# 207 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 251 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Quick Ball$"
 
 MirrohBaseCamp_Houses_MasterballFriend_Text_10:
-# 208 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 252 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Luxury Ball$"
 
 MirrohBaseCamp_Houses_MasterballFriend_Text_11:
-# 209 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 253 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "Dream Ball$"
 
 MirrohBaseCamp_Houses_MasterballFriend_Text_12:
-# 225 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 269 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "You don't have a {STR_VAR_1}.\p"
 	.string "I can switch Poké Balls but I can't make\n"
 	.string "them appear out of thin air!$"
 
 MirrohBaseCamp_Houses_MasterballFriend_Text_13:
-# 230 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 274 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "{PLAYER} handed a {STR_VAR_1}\n"
 	.string "over to the craftsman.$"
 
 MirrohBaseCamp_Houses_MasterballFriend_Text_14:
-# 232 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 276 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "...\p"
 	.string "...$"
 
 MirrohBaseCamp_Houses_MasterballFriend_Text_15:
-# 235 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
+# 279 "data//maps/MirrohBaseCamp_Houses/scripts.pory"
 	.string "...and done! Come back if you need me to\n"
 	.string "do any more!$"

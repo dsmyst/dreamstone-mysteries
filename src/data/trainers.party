@@ -10525,8 +10525,8 @@ Level: 24
 === TRAINER_CHAMPION_GRETA ===
 Name: Greta
 Difficulty: Easy
-Class: Camper
-Pic: Camper
+Class: Champion
+Pic: Arena Tycoon Greta
 Gender: Male
 Music: Male
 Double Battle: No
@@ -10597,8 +10597,8 @@ Adamant Nature
 === TRAINER_CHAMPION_RAVINE ===
 Name: Ravine
 Difficulty: Easy
-Class: Picnicker
-Pic: Picnicker
+Class: Champion
+Pic: Dome Ace Tucker
 Gender: Female
 Music: Girl
 Double Battle: Yes
@@ -10670,8 +10670,8 @@ Impish Nature
 === TRAINER_CHAMPION_RAVINE ===
 Name: Ravine
 Difficulty: Normal
-Class: Picnicker
-Pic: Picnicker
+Class: Champion
+Pic: Dome Ace Tucker
 Gender: Female
 Music: Girl
 Double Battle: Yes
@@ -10743,8 +10743,8 @@ Impish Nature
 
 === TRAINER_CHAMPION_LYNCH ===
 Name: Lynch
-Class: Camper
-Pic: Camper
+Class: Champion
+Pic: Champion Lynch
 Gender: Male
 Music: Male
 Double Battle: No
@@ -10816,8 +10816,8 @@ IVs: 0 Atk
 
 === TRAINER_CHAMPION_MARTHA ===
 Name: Martha
-Class: Camper
-Pic: Camper
+Class: Champion
+Pic: Expert F
 Gender: Male
 Music: Male
 Double Battle: No

@@ -117,6 +117,37 @@ script PellucaCityRestaurant_Cook3{
     lockall
     faceplayer
 
+    //post-game
+    if (flag(FLAG_SYS_GAME_CLEAR)){
+        if (flag(FLAG_CHAMPION_LYNCH_COMPLETE)){
+
+        } else {
+            if (flag(FLAG_CHAMPION_RAVINE_COMPLETE)){
+                speakername("Lynch")
+                msgbox(format("Ravine told me to expect you.\pBut if we do anything here, we'll destroy the restaurant!\pCome find me where only Liechi Berries grow."))
+                release
+
+                //exit 
+                applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_down face_up))
+                applymovement(12, moves(walk_left * 4 walk_up * 2))
+                applymovement(16, moves(walk_left * 5 walk_up))
+                waitmovement(0)
+                removeobject(12)
+                playse(SE_EXIT)
+                applymovement(16, moves(walk_up))
+                waitmovement(0)
+                removeobject(16)
+                delay(2)
+
+                setflag(FLAG_CHAMPION_LYNCH_SETUP)
+                setflag(FLAG_HIDE_CHAMPION_LYNCH)
+
+                releaseall
+                end
+            }
+        }
+    }
+
     if (var(VAR_PELLUCA_COOK) == 2){
         speakername("Lynch")
         msgbox(format("How's my favourite trainer and Applin doing?"))
@@ -198,6 +229,12 @@ script PellucaCityRestaurant_Appletun{
 script PellucaCityRestaurant_Dipplin{
     playmoncry(SPECIES_DIPPLIN, CRY_MODE_NORMAL)
     msgbox(format("Dipplin is keeping an eye on the customers!"), MSGBOX_NPC)
+    end
+}
+
+script PellucaCityRestaurant_Hydrapple{
+    playmoncry(SPECIES_DIPPLIN, CRY_MODE_NORMAL)
+    msgbox(format("Hydrapple is sneaking a bite from the refrigerator!"), MSGBOX_NPC)
     end
 }
 

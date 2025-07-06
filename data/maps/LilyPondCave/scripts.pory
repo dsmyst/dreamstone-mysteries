@@ -83,6 +83,8 @@ script LilyPondCave_Martha_Battle{
     waitse
 
     setflag(FLAG_CHAMPION_MARTHA_COMPLETE)
+    clearflag(FLAG_HIDE_MIRROHBASECAMP_HISTORIAN)
+    clearflag(FLAG_HIDE_CHAMPION_MARTHA)
 
     releaseall
     end

@@ -400,8 +400,16 @@ const u32 gTrainerPalette_Rue[] = INCBIN_U32("graphics/trainers/my_trainers/rue.
 const u32 gTrainerFrontPic_QwilsquadBoss[] = INCBIN_U32("graphics/trainers/my_trainers/qwilsquad_boss.4bpp.lz");
 const u32 gTrainerPalette_QwilsquadBoss[] = INCBIN_U32("graphics/trainers/my_trainers/qwilsquad_boss.gbapal.lz");
 
+const u32 gTrainerFrontPic_ChampionLynch[] = INCBIN_U32("graphics/trainers/my_trainers/lynch.4bpp.lz");
+const u32 gTrainerPalette_ChampionLynch[] = INCBIN_U32("graphics/trainers/my_trainers/lynch.gbapal.lz");
+
+
+
+
+///gabrielle back pic
 const u8 gTrainerBackPic_Gabrielle[] = INCBIN_U8("graphics/trainers/my_trainers/gabrielle_back.4bpp");
 const u32 gTrainerPalette_Gabrielle[] = INCBIN_U32("graphics/trainers/my_trainers/gabrielle_back.gbapal.lz");
+
 
 
 
@@ -574,7 +582,8 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_COOL_GUY, gTrainerFrontPic_CoolGuy ,gTrainerPalette_CoolGuy),
     TRAINER_SPRITE(TRAINER_PIC_JANIA_ARTIST, gTrainerFrontPic_JaniaArtist ,gTrainerPalette_JaniaArtist),
     TRAINER_SPRITE(TRAINER_PIC_RUE, gTrainerFrontPic_Rue ,gTrainerPalette_Rue),
-    TRAINER_SPRITE(TRAINER_PIC_QWILSQUAD_BOSS, gTrainerFrontPic_QwilsquadBoss ,gTrainerPalette_QwilsquadBoss),
+    TRAINER_SPRITE(TRAINER_PIC_QWILSQUAD_BOSS, gTrainerFrontPic_QwilsquadBoss, gTrainerPalette_QwilsquadBoss),
+    TRAINER_SPRITE(TRAINER_PIC_CHAMPION_LYNCH, gTrainerFrontPic_ChampionLynch, gTrainerPalette_ChampionLynch),
 };
 
 static const union AnimCmd sAnimCmd_Hoenn[] =

@@ -54,6 +54,7 @@ script Route5_Lynch_Battle_Trigger{
         // special(RemoveCameraObject)
 
         setflag(FLAG_CHAMPION_LYNCH_COMPLETE)
+        clearflag(FLAG_HIDE_CHAMPION_LYNCH)
 
         releaseall
         end

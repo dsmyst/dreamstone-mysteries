@@ -528,6 +528,34 @@ script RangerInstitute_2F_EventScript_Welcome{
 
 
 script RangerInstitute_Ravine{
+    //post-game
+    if (flag(FLAG_SYS_GAME_CLEAR)){
+        //if its done then move on
+        if (flag(FLAG_CHAMPION_RAVINE_COMPLETE)){
+
+        } else {
+            //if greta is done then do it, or else move on
+            if (flag(FLAG_CHAMPION_GRETA_COMPLETE)){
+                lockall 
+                faceplayer
+                speakername("Ravine")
+                msgbox(format("A special visitor! One that comes every four years.\p...\pAfter my duel with Greta four years ago, I knew this day would come.\pBut not here, young Champion.\pCome find me in the southernmost point of Cormoria!"))
+                release
+
+                applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up face_down))
+                applymovement(LOCALID_RAVINE, moves(walk_right * 4 walk_down * 2 walk_right * 5))
+                waitmovement(0)
+
+                removeobject(LOCALID_RAVINE)
+                setflag(FLAG_HIDE_CHAMPION_RAVINE)
+                setflag(FLAG_CHAMPION_RAVINE_SETUP)
+
+                releaseall
+                end
+            }
+        }
+    }    
+
 
     if (var(VAR_RANGER_INSTITUTE) == 11){
         lockall 

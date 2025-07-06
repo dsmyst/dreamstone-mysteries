@@ -50,6 +50,7 @@ script MtCeram_Caves_Greta_Battle{
     removeobject(7)
 
     setflag(FLAG_CHAMPION_GRETA_COMPLETE)
+    clearflag(FLAG_HIDE_CHAMPION_GRETA)
 
     releaseall
     end

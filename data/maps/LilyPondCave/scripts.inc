@@ -143,7 +143,11 @@ LilyPondCave_Martha_Battle::
 	waitse
 # 85 "data//maps/LilyPondCave/scripts.pory"
 	setflag FLAG_CHAMPION_MARTHA_COMPLETE
+# 86 "data//maps/LilyPondCave/scripts.pory"
+	clearflag FLAG_HIDE_MIRROHBASECAMP_HISTORIAN
 # 87 "data//maps/LilyPondCave/scripts.pory"
+	clearflag FLAG_HIDE_CHAMPION_MARTHA
+# 89 "data//maps/LilyPondCave/scripts.pory"
 	releaseall
 	end
 

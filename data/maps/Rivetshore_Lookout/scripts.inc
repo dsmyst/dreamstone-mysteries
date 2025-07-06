@@ -97,7 +97,9 @@ Rivetshore_Lookout_Ravine_Battle_Trigger_4:
 	special RemoveCameraObject
 # 63 "data//maps/Rivetshore_Lookout/scripts.pory"
 	setflag FLAG_CHAMPION_RAVINE_COMPLETE
-# 65 "data//maps/Rivetshore_Lookout/scripts.pory"
+# 64 "data//maps/Rivetshore_Lookout/scripts.pory"
+	clearflag FLAG_HIDE_CHAMPION_RAVINE
+# 66 "data//maps/Rivetshore_Lookout/scripts.pory"
 	releaseall
 	end
 

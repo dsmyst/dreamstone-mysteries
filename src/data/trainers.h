@@ -21671,9 +21671,9 @@ F_TRAINER_FEMALE |
 #line 10526
         .trainerName = _("Greta"),
 #line 10528
-        .trainerClass = TRAINER_CLASS_CAMPER,
+        .trainerClass = TRAINER_CLASS_CHAMPION,
 #line 10529
-        .trainerPic = TRAINER_PIC_CAMPER,
+        .trainerPic = TRAINER_PIC_ARENA_TYCOON_GRETA,
         .encounterMusic_gender =
 #line 10531
             TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -21842,9 +21842,9 @@ F_TRAINER_FEMALE |
 #line 10598
         .trainerName = _("Ravine"),
 #line 10600
-        .trainerClass = TRAINER_CLASS_PICNICKER,
+        .trainerClass = TRAINER_CLASS_CHAMPION,
 #line 10601
-        .trainerPic = TRAINER_PIC_PICNICKER,
+        .trainerPic = TRAINER_PIC_DOME_ACE_TUCKER,
         .encounterMusic_gender =
 #line 10602
 F_TRAINER_FEMALE | 
@@ -22019,9 +22019,9 @@ F_TRAINER_FEMALE |
 #line 10671
         .trainerName = _("Ravine"),
 #line 10673
-        .trainerClass = TRAINER_CLASS_PICNICKER,
+        .trainerClass = TRAINER_CLASS_CHAMPION,
 #line 10674
-        .trainerPic = TRAINER_PIC_PICNICKER,
+        .trainerPic = TRAINER_PIC_DOME_ACE_TUCKER,
         .encounterMusic_gender =
 #line 10675
 F_TRAINER_FEMALE | 
@@ -22195,9 +22195,9 @@ F_TRAINER_FEMALE |
 #line 10745
         .trainerName = _("Lynch"),
 #line 10746
-        .trainerClass = TRAINER_CLASS_CAMPER,
+        .trainerClass = TRAINER_CLASS_CHAMPION,
 #line 10747
-        .trainerPic = TRAINER_PIC_CAMPER,
+        .trainerPic = TRAINER_PIC_CHAMPION_LYNCH,
         .encounterMusic_gender =
 #line 10749
             TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -22368,9 +22368,9 @@ F_TRAINER_FEMALE |
 #line 10818
         .trainerName = _("Martha"),
 #line 10819
-        .trainerClass = TRAINER_CLASS_CAMPER,
+        .trainerClass = TRAINER_CLASS_CHAMPION,
 #line 10820
-        .trainerPic = TRAINER_PIC_CAMPER,
+        .trainerPic = TRAINER_PIC_EXPERT_F,
         .encounterMusic_gender =
 #line 10822
             TRAINER_ENCOUNTER_MUSIC_MALE,

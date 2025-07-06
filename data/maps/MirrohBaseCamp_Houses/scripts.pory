@@ -6,6 +6,50 @@ script MirrohBaseCamp_Houses_Historian{
     lockall
     faceplayer
 
+    //post-game
+    if (flag(FLAG_SYS_GAME_CLEAR)){
+        if (flag(FLAG_CHAMPION_MARTHA_COMPLETE)){
+
+        } else {
+            speakername("Martha")
+            msgbox(format("So you've finally come.\pI'll see you in a cold, dark cave where water flows."))
+            release
+
+            //exit
+            specialvar(VAR_RESULT, GetPlayerFacingDirection)
+            if (var(VAR_RESULT) == DIR_EAST){
+                applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up face_down))
+                waitmovement(0)
+            }
+           
+            applymovement(1, moves(walk_left * 3 walk_down * 2))
+            waitmovement(0)
+            removeobject(1)
+            delay(8)
+            speakername("Martha")
+            msgbox(format("Come Houndstone!\nWe're going for a long walk."))
+            release
+            delay(16)
+
+            playmoncry(SPECIES_HOUNDSTONE, CRY_MODE_NORMAL)
+            applymovement(4, moves(emote_exclamation_mark jump_in_place_down))
+            waitmovement(0)
+            delay(24)
+
+            applymovement(4, moves(jump_2_down * 2))
+            waitmovement(0)
+            removeobject(4)
+
+            setflag(FLAG_HIDE_MIRROHBASECAMP_HISTORIAN)
+            setflag(FLAG_HIDE_CHAMPION_MARTHA)
+            setflag(FLAG_CHAMPION_MARTHA_SETUP)
+
+            releaseall
+            end
+        }
+    }
+
+
     if (flag(FLAG_MIRROHBASECAMP_HISTORIAN)){
         if (flag(FLAG_MIRROH_GOT_OLD_BONE)){
             speakername("Martha")
