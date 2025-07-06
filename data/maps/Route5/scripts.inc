@@ -422,8 +422,8 @@ Route5_Lynch_Battle_Trigger_Text_1:
 	.string "Sigh...how time flies.\p"
 	.string "You'll be old in the blink of an eye too,\n"
 	.string "{PLAYER}! But while you're young, why\l"
-	.string "don't you light the same fire inside me\l"
-	.string "as well?$"
+	.string "don't you try to light the same fire\l"
+	.string "inside me as well?$"
 
 Route5_Lynch_Battle_Trigger_Text_2:
 # 37 "data//maps/Route5/scripts.pory"

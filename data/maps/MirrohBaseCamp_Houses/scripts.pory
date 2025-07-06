@@ -11,41 +11,46 @@ script MirrohBaseCamp_Houses_Historian{
         if (flag(FLAG_CHAMPION_MARTHA_COMPLETE)){
 
         } else {
-            speakername("Martha")
-            msgbox(format("So you've finally come.\pI'll see you in a cold, dark cave where water flows."))
-            release
+            if (flag(FLAG_CHAMPION_LYNCH_COMPLETE)){
+                speakername("Martha")
+                msgbox(format("So you've finally come.\pI'll see you in a cold, dark cave where water flows."))
+                release
 
-            //exit
-            specialvar(VAR_RESULT, GetPlayerFacingDirection)
-            if (var(VAR_RESULT) == DIR_EAST){
-                applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up face_down))
+                //exit
+                specialvar(VAR_RESULT, GetPlayerFacingDirection)
+                if (var(VAR_RESULT) == DIR_EAST){
+                    applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up face_down))
+                    waitmovement(0)
+                }
+            
+                applymovement(1, moves(walk_left * 3 walk_down * 2))
                 waitmovement(0)
+                playse(SE_EXIT)
+                removeobject(1)
+                delay(8)
+                speakername("Martha")
+                msgbox(format("Come Houndstone!\nWe're going for a long walk."))
+                release
+                delay(16)
+
+                playmoncry(SPECIES_HOUNDSTONE, CRY_MODE_NORMAL)
+                applymovement(4, moves(emote_exclamation_mark jump_in_place_down))
+                waitmovement(0)
+                delay(24)
+
+                applymovement(4, moves(jump_2_down * 2))
+                waitmovement(0)
+                removeobject(4)
+                playse(SE_EXIT)
+                waitse
+                
+                setflag(FLAG_HIDE_MIRROHBASECAMP_HISTORIAN)
+                setflag(FLAG_HIDE_CHAMPION_MARTHA)
+                setflag(FLAG_CHAMPION_MARTHA_SETUP)
+
+                releaseall
+                end
             }
-           
-            applymovement(1, moves(walk_left * 3 walk_down * 2))
-            waitmovement(0)
-            removeobject(1)
-            delay(8)
-            speakername("Martha")
-            msgbox(format("Come Houndstone!\nWe're going for a long walk."))
-            release
-            delay(16)
-
-            playmoncry(SPECIES_HOUNDSTONE, CRY_MODE_NORMAL)
-            applymovement(4, moves(emote_exclamation_mark jump_in_place_down))
-            waitmovement(0)
-            delay(24)
-
-            applymovement(4, moves(jump_2_down * 2))
-            waitmovement(0)
-            removeobject(4)
-
-            setflag(FLAG_HIDE_MIRROHBASECAMP_HISTORIAN)
-            setflag(FLAG_HIDE_CHAMPION_MARTHA)
-            setflag(FLAG_CHAMPION_MARTHA_SETUP)
-
-            releaseall
-            end
         }
     }
 

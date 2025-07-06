@@ -21680,7 +21680,7 @@ F_TRAINER_FEMALE |
 #line 10532
         .doubleBattle = FALSE,
 #line 10533
-        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION,
+        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION | AI_FLAG_RISKY,
 #line 10534
         .startingStatus = STARTING_STATUS_TRICK_ROOM,
         .partySize = 6,
@@ -21851,7 +21851,7 @@ F_TRAINER_FEMALE |
 #line 10604
         .doubleBattle = FALSE,
 #line 10605
-        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION,
+        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION | AI_FLAG_RISKY,
 #line 10606
         .startingStatus = STARTING_STATUS_TRICK_ROOM,
         .partySize = 6,
@@ -22024,7 +22024,7 @@ F_TRAINER_FEMALE |
 #line 10676
         .doubleBattle = TRUE,
 #line 10677
-        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION | AI_FLAG_ACE_POKEMON,
+        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION | AI_FLAG_RISKY | AI_FLAG_ACE_POKEMON,
 #line 10678
         .startingStatus = STARTING_STATUS_RAINBOW_OPPONENT,
         .partySize = 6,
@@ -22157,7 +22157,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 10732
-            .species = SPECIES_KANGASKHAN_MEGA,
+            .species = SPECIES_KANGASKHAN,
 #line 10732
             .gender = TRAINER_MON_FEMALE,
 #line 10732
@@ -22201,7 +22201,7 @@ F_TRAINER_FEMALE |
 #line 10749
         .doubleBattle = TRUE,
 #line 10750
-        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION | AI_FLAG_ACE_POKEMON,
+        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION | AI_FLAG_RISKY | AI_FLAG_ACE_POKEMON,
 #line 10751
         .startingStatus = STARTING_STATUS_RAINBOW_OPPONENT,
         .partySize = 6,
@@ -22334,7 +22334,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 10805
-            .species = SPECIES_KANGASKHAN_MEGA,
+            .species = SPECIES_KANGASKHAN,
 #line 10805
             .gender = TRAINER_MON_FEMALE,
 #line 10805
@@ -22376,7 +22376,7 @@ F_TRAINER_FEMALE |
 #line 10823
         .doubleBattle = FALSE,
 #line 10824
-        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION | AI_FLAG_ACE_POKEMON,
+        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION | AI_FLAG_RISKY | AI_FLAG_ACE_POKEMON,
 #line 10825
         .startingStatus = STARTING_STATUS_RAINBOW_OPPONENT,
         .partySize = 6,
@@ -22550,7 +22550,7 @@ F_TRAINER_FEMALE |
 #line 10896
         .doubleBattle = FALSE,
 #line 10897
-        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION | AI_FLAG_ACE_POKEMON,
+        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION | AI_FLAG_RISKY | AI_FLAG_ACE_POKEMON,
 #line 10898
         .startingStatus = STARTING_STATUS_RAINBOW_OPPONENT,
         .partySize = 6,
@@ -22722,9 +22722,9 @@ F_TRAINER_FEMALE |
 #line 10968
             TRAINER_ENCOUNTER_MUSIC_MALE,
 #line 10969
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
 #line 10970
-        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION | AI_FLAG_ACE_POKEMON,
+        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION | AI_FLAG_RISKY | AI_FLAG_ACE_POKEMON,
         .partySize = 6,
         .party = (const struct TrainerMon[])
         {
@@ -22892,9 +22892,9 @@ F_TRAINER_FEMALE |
 #line 11039
             TRAINER_ENCOUNTER_MUSIC_MALE,
 #line 11040
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
 #line 11041
-        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION | AI_FLAG_ACE_POKEMON,
+        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION | AI_FLAG_RISKY | AI_FLAG_ACE_POKEMON,
         .partySize = 6,
         .party = (const struct TrainerMon[])
         {

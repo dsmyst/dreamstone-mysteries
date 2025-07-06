@@ -485,7 +485,7 @@ RivetshoreCity_Market_Shop_Secret_2:
 # 369 "data//maps/RivetshoreCity/scripts.pory"
 	speakername RivetshoreCity_Market_Shop_Secret_Text_0
 # 370 "data//maps/RivetshoreCity/scripts.pory"
-	message RivetshoreCity_Market_Shop_Secret_Text_2
+	msgbox RivetshoreCity_Market_Shop_Secret_Text_2
 # 371 "data//maps/RivetshoreCity/scripts.pory"
 	release
 # 372 "data//maps/RivetshoreCity/scripts.pory"

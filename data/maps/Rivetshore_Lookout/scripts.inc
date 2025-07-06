@@ -156,10 +156,6 @@ Rivetshore_Lookout_Ravine_Battle_Trigger_Movement_4:
 	walk_up
 # 59 "data//maps/Rivetshore_Lookout/scripts.pory"
 	walk_up
-# 59 "data//maps/Rivetshore_Lookout/scripts.pory"
-	walk_left
-# 59 "data//maps/Rivetshore_Lookout/scripts.pory"
-	walk_left
 	step_end
 
 Rivetshore_Lookout_Ravine_Battle_Trigger_Text_0:
@@ -201,5 +197,4 @@ Rivetshore_Lookout_Ravine_Battle_Trigger_Text_3:
 	.string "that, {PLAYER}? I think I'm going to\l"
 	.string "take the day off...wander a little.\l"
 	.string "Reminisce. You've brought something\l"
-	.string "out in me, {PLAYER}, and I can't quell\l"
-	.string "it!$"
+	.string "out in me and I can't quell it!$"

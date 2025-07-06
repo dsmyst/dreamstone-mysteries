@@ -10530,7 +10530,7 @@ Pic: Arena Tycoon Greta
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Trainer / Prediction
+AI: Smart Trainer / Prediction / Risky
 Starting Status: Trick Room
 
 Chandelure @ Expert Belt  
@@ -10602,7 +10602,7 @@ Pic: Arena Tycoon Greta
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Trainer / Prediction
+AI: Smart Trainer / Prediction / Risky
 Starting Status: Trick Room
 
 Chandelure @ Expert Belt  
@@ -10674,7 +10674,7 @@ Pic: Dome Ace Tucker
 Gender: Female
 Music: Girl
 Double Battle: Yes
-AI: Smart Trainer / Prediction / Ace Pokemon
+AI: Smart Trainer / Prediction / Risky / Ace Pokemon
 Starting Status: Rainbow Opponent
 
 Masquerain @ Focus Sash  
@@ -10729,7 +10729,7 @@ Adamant Nature
 - Drill Run  
 - Last Resort  
 
-Kangaskhan-Mega (F) @ Kangaskhanite  
+Kangaskhan (F) @ Kangaskhanite  
 Level: 73
 Ability: Parental Bond  
 EVs: 252 HP / 32 Def / 128 SpD / 96 Spe  
@@ -10747,7 +10747,7 @@ Pic: Dome Ace Tucker
 Gender: Female
 Music: Girl
 Double Battle: Yes
-AI: Smart Trainer / Prediction / Ace Pokemon
+AI: Smart Trainer / Prediction / Risky / Ace Pokemon
 Starting Status: Rainbow Opponent
 
 Masquerain @ Focus Sash  
@@ -10802,7 +10802,7 @@ Adamant Nature
 - Drill Run  
 - Last Resort  
 
-Kangaskhan-Mega (F) @ Kangaskhanite  
+Kangaskhan (F) @ Kangaskhanite  
 Level: 73
 Ability: Parental Bond  
 EVs: 252 HP / 32 Def / 128 SpD / 96 Spe  
@@ -10821,7 +10821,7 @@ Pic: Champion Lynch
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Trainer / Prediction / Ace Pokemon
+AI: Smart Trainer / Prediction / Risky / Ace Pokemon
 Starting Status: Rainbow Opponent
 
 Amoonguss @ Leftovers  
@@ -10894,7 +10894,7 @@ Pic: Champion Lynch
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Trainer / Prediction / Ace Pokemon
+AI: Smart Trainer / Prediction / Risky / Ace Pokemon
 Starting Status: Rainbow Opponent
 
 Amoonguss @ Leftovers  
@@ -10966,8 +10966,8 @@ Class: Champion
 Pic: Expert F
 Gender: Male
 Music: Male
-Double Battle: No
-AI: Smart Trainer / Prediction / Ace Pokemon
+Double Battle: Yes
+AI: Smart Trainer / Prediction / Risky / Ace Pokemon
 
 Aurorus @ Light Clay  
 Level: 70
@@ -11037,8 +11037,8 @@ Class: Champion
 Pic: Expert F
 Gender: Male
 Music: Male
-Double Battle: No
-AI: Smart Trainer / Prediction / Ace Pokemon
+Double Battle: Yes
+AI: Smart Trainer / Prediction / Risky / Ace Pokemon
 
 Aurorus @ Light Clay  
 Level: 70

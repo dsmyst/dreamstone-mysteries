@@ -44,7 +44,7 @@ script Rivetshore_Lookout_Ravine_Battle_Trigger{
         
         trainerbattle_no_intro(TRAINER_CHAMPION_RAVINE, format("Hahaha! What a fight!"))
 
-        msgbox_delay("Ravine", format("Oh my! That was exhilarating! How can I go back to the office after a fight like that, {PLAYER}? I think I'm going to take the day off...wander a little. Reminisce. You've brought something out in me, {PLAYER}, and I can't quell it!"))
+        msgbox_delay("Ravine", format("Oh my! That was exhilarating! How can I go back to the office after a fight like that, {PLAYER}? I think I'm going to take the day off...wander a little. Reminisce. You've brought something out in me and I can't quell it!"))
 
         //exit
         applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_left * 2 face_right))
@@ -56,7 +56,7 @@ script Rivetshore_Lookout_Ravine_Battle_Trigger{
         removeobject(2)
 
         special(SpawnCameraObject)
-        applymovement(OBJ_EVENT_ID_CAMERA, moves(walk_up * 2 walk_left * 2))
+        applymovement(OBJ_EVENT_ID_CAMERA, moves(walk_up * 2))
         waitmovement(0)
         special(RemoveCameraObject)
 

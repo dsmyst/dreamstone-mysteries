@@ -367,7 +367,7 @@ script RivetshoreCity_Market_Shop_Secret{
 
         //if battle not done, set up battle
             speakername("Greta")
-            message(format("Look who it is! All of Cormoria is buzzing with the news!\pHow do you feel?\nDon't bother telling me - I know the feeling all too well.\pI know why you've come. The first thing I did was go to Ravine too, and we're all cut from the same cloth.\pBut let's not do this here.\nCome find me where we first met!"))
+            msgbox(format("Look who it is! All of Cormoria is buzzing with the news!\pHow do you feel?\nDon't bother telling me - I know the feeling all too well.\pI know why you've come. The first thing I did was go to Ravine too, and we're all cut from the same cloth.\pBut let's not do this here.\nCome find me where we first met!"))
             release
             delay(8)
 

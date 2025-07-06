@@ -452,8 +452,6 @@ PellucaCityRestaurant_Cook3_Movement_1:
 	walk_left
 # 132 "data//maps/PellucaCityRestaurant/scripts.pory"
 	walk_up
-# 132 "data//maps/PellucaCityRestaurant/scripts.pory"
-	walk_up
 	step_end
 
 # 133 "data//maps/PellucaCityRestaurant/scripts.pory"
@@ -469,7 +467,7 @@ PellucaCityRestaurant_Cook3_Movement_2:
 # 133 "data//maps/PellucaCityRestaurant/scripts.pory"
 	walk_left
 # 133 "data//maps/PellucaCityRestaurant/scripts.pory"
-	walk_up
+	face_up
 	step_end
 
 # 137 "data//maps/PellucaCityRestaurant/scripts.pory"
@@ -564,8 +562,8 @@ PellucaCityRestaurant_Cook3_Text_1:
 	.string "Ravine told me to expect you.\p"
 	.string "But if we do anything here, we'll\n"
 	.string "destroy the restaurant!\p"
-	.string "Come find me where only Liechi Berries\n"
-	.string "grow.$"
+	.string "Tell you what - come find me where only\n"
+	.string "Liechi Berries grow!$"
 
 PellucaCityRestaurant_Cook3_Text_2:
 # 153 "data//maps/PellucaCityRestaurant/scripts.pory"

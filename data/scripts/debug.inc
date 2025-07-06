@@ -155,12 +155,12 @@ Debug_EventScript_Script_3::
 	end
 
 Debug_EventScript_Script_4::
-	warp MAP_ROUTE6_ZERAORA_CAVE_B1F, 15, 9
+	warp MAP_MT_CERAM_CAVES, 29, 45
 	release
 	end
 
 Debug_EventScript_Script_5::
-	trainerbattle_no_intro TRAINER_CHAMPION_GRETA, Debug_EventScript_Text_OffensiveIVs
+	warp MAP_RIVETSHORE_CITY, 2, 50
 	release
 	end
 

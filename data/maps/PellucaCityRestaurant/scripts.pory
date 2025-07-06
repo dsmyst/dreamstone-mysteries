@@ -124,13 +124,13 @@ script PellucaCityRestaurant_Cook3{
         } else {
             if (flag(FLAG_CHAMPION_RAVINE_COMPLETE)){
                 speakername("Lynch")
-                msgbox(format("Ravine told me to expect you.\pBut if we do anything here, we'll destroy the restaurant!\pCome find me where only Liechi Berries grow."))
+                msgbox(format("Ravine told me to expect you.\pBut if we do anything here, we'll destroy the restaurant!\pTell you what - come find me where only Liechi Berries grow!"))
                 release
 
                 //exit 
                 applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_down face_up))
-                applymovement(12, moves(walk_left * 4 walk_up * 2))
-                applymovement(16, moves(walk_left * 5 walk_up))
+                applymovement(12, moves(walk_left * 4 walk_up))
+                applymovement(16, moves(walk_left * 5 face_up))
                 waitmovement(0)
                 removeobject(12)
                 playse(SE_EXIT)
