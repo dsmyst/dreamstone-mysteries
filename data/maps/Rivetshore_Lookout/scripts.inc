@@ -68,8 +68,16 @@ Rivetshore_Lookout_Ravine_Battle_Trigger_4:
 # 47 "data//maps/Rivetshore_Lookout/scripts.pory"
 	removeobject 2
 # 49 "data//maps/Rivetshore_Lookout/scripts.pory"
-	setflag FLAG_CHAMPION_RAVINE_COMPLETE
+	special SpawnCameraObject
+# 50 "data//maps/Rivetshore_Lookout/scripts.pory"
+	applymovement OBJ_EVENT_ID_CAMERA, Rivetshore_Lookout_Ravine_Battle_Trigger_Movement_4
 # 51 "data//maps/Rivetshore_Lookout/scripts.pory"
+	waitmovement 0
+# 52 "data//maps/Rivetshore_Lookout/scripts.pory"
+	special RemoveCameraObject
+# 54 "data//maps/Rivetshore_Lookout/scripts.pory"
+	setflag FLAG_CHAMPION_RAVINE_COMPLETE
+# 56 "data//maps/Rivetshore_Lookout/scripts.pory"
 	releaseall
 	end
 
@@ -118,6 +126,18 @@ Rivetshore_Lookout_Ravine_Battle_Trigger_Movement_3:
 	walk_up
 # 42 "data//maps/Rivetshore_Lookout/scripts.pory"
 	walk_up
+	step_end
+
+# 50 "data//maps/Rivetshore_Lookout/scripts.pory"
+Rivetshore_Lookout_Ravine_Battle_Trigger_Movement_4:
+# 50 "data//maps/Rivetshore_Lookout/scripts.pory"
+	walk_up
+# 50 "data//maps/Rivetshore_Lookout/scripts.pory"
+	walk_up
+# 50 "data//maps/Rivetshore_Lookout/scripts.pory"
+	walk_left
+# 50 "data//maps/Rivetshore_Lookout/scripts.pory"
+	walk_left
 	step_end
 
 Rivetshore_Lookout_Ravine_Battle_Trigger_Text_0:

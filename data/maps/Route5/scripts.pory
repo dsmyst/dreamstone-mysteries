@@ -1,4 +1,53 @@
-mapscripts Route5_MapScripts{}
+mapscripts Route5_MapScripts{
+    MAP_SCRIPT_ON_TRANSITION: Route5_OnTransition
+}
+
+script Route5_OnTransition{
+    if (flag(FLAG_CHAMPION_LYNCH_COMPLETE)) {end}
+    if (flag(FLAG_CHAMPION_LYNCH_SETUP)){
+        setobjectxyperm(18, 9, 8) //lynch
+        setobjectxyperm(19, 8, 8) //hydrapple
+        end
+    }    
+}
+
+script Route5_Lynch_Battle_Trigger{
+    if (flag(FLAG_CHAMPION_LYNCH_COMPLETE)) {end}
+
+    if (flag(FLAG_CHAMPION_LYNCH_SETUP)){
+        special(SpawnCameraObject)
+        applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up))
+        applymovement(OBJ_EVENT_ID_CAMERA, moves(walk_up))
+        waitmovement(0)
+        special(RemoveCameraObject)
+
+        msgbox_delay("Lynch", format(""))
+        
+        trainerbattle_no_intro(TRAINER_ROUTE1_A, format(""))
+
+        msgbox_delay("Lynch", format(""))
+
+
+        //exit
+        applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_down * 2 walk_left * 2 face_right))
+        applymovement(18, moves(walk_down * 5 walk_right walk_down * 7))
+        applymovement(19, moves(walk_right walk_down * 5 walk_right walk_down * 7))
+        waitmovement(0)
+
+        removeobject(18)
+        removeobject(19)
+
+        // special(SpawnCameraObject)
+        // applymovement(OBJ_EVENT_ID_CAMERA, moves(walk_down))
+        // waitmovement(0)
+        // special(RemoveCameraObject)
+
+        setflag(FLAG_CHAMPION_LYNCH_COMPLETE)
+
+        releaseall
+        end
+    }
+}
 
 script Route5_NPC_A{
     lockall

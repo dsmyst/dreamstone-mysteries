@@ -150,6 +150,8 @@ Debug_EventScript_Script_2::
 Debug_EventScript_Script_3::
 	setflag FLAG_CHAMPION_RAVINE_SETUP
 	setflag FLAG_CHAMPION_MARTHA_SETUP
+	setflag FLAG_CHAMPION_LYNCH_SETUP
+	setflag FLAG_CHAMPION_GRETA_SETUP
 	end
 
 Debug_EventScript_Script_4::

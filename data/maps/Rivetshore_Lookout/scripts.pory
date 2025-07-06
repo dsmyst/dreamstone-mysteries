@@ -46,6 +46,11 @@ script Rivetshore_Lookout_Ravine_Battle_Trigger{
         removeobject(1)
         removeobject(2)
 
+        special(SpawnCameraObject)
+        applymovement(OBJ_EVENT_ID_CAMERA, moves(walk_up * 2 walk_left * 2))
+        waitmovement(0)
+        special(RemoveCameraObject)
+
         setflag(FLAG_CHAMPION_RAVINE_COMPLETE)
 
         releaseall
