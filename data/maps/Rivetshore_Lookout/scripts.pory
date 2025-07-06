@@ -28,6 +28,7 @@ script Rivetshore_Lookout_Ravine_Battle_Trigger{
         applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_down * 2))
         applymovement(OBJ_EVENT_ID_CAMERA, moves(walk_down * 4))
         waitmovement(0)
+        special(RemoveCameraObject)
 
         msgbox_delay("Ravine", format(""))
         

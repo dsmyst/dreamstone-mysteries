@@ -1,0 +1,80 @@
+mapscripts LilyPondCave_MapScripts{
+    MAP_SCRIPT_ON_TRANSITION: LilyPondCave_OnTransition
+}
+
+script LilyPondCave_OnTransition{
+    if (flag(FLAG_CHAMPION_MARTHA_COMPLETE)) {end}
+    
+    if (flag(FLAG_CHAMPION_MARTHA_SETUP)) {
+        setobjectxyperm(8, 13, 29) //martha
+        setobjectxyperm(9, 12, 29) //houndstone
+        end
+    }
+}
+
+script LilyPondCave_Martha_Battle_Trigger0{
+    if (flag(FLAG_CHAMPION_MARTHA_COMPLETE)) {end}
+
+    if (flag(FLAG_CHAMPION_MARTHA_SETUP)){
+        special(SpawnCameraObject)
+        applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up * 2 walk_right face_up))
+        applymovement(OBJ_EVENT_ID_CAMERA, moves(walk_up * 3))
+        waitmovement(0)
+        special(RemoveCameraObject)
+
+        goto(LilyPondCave_Martha_Battle)
+    }
+}
+script LilyPondCave_Martha_Battle_Trigger1{
+    if (flag(FLAG_CHAMPION_MARTHA_COMPLETE)) {end}
+    
+    if (flag(FLAG_CHAMPION_MARTHA_SETUP)){
+        special(SpawnCameraObject)
+        applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up * 2))
+        applymovement(OBJ_EVENT_ID_CAMERA, moves(walk_up * 3))
+        waitmovement(0)
+        special(RemoveCameraObject)
+
+        goto(LilyPondCave_Martha_Battle)
+    }
+}
+script LilyPondCave_Martha_Battle_Trigger2{
+    if (flag(FLAG_CHAMPION_MARTHA_COMPLETE)) {end}
+
+    if (flag(FLAG_CHAMPION_MARTHA_SETUP)){
+        special(SpawnCameraObject)
+        applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up * 2 walk_left face_up))
+        applymovement(OBJ_EVENT_ID_CAMERA, moves(walk_up * 3))
+        waitmovement(0)
+        special(RemoveCameraObject)
+
+        goto(LilyPondCave_Martha_Battle)
+    }
+}
+
+
+
+
+script LilyPondCave_Martha_Battle{
+    msgbox_delay("Martha", format(""))
+
+    trainerbattle_no_intro(TRAINER_ROUTE1_A, format(""))
+
+    msgbox_delay("Martha", format(""))
+
+    applymovement(8, moves(walk_right walk_down * 7 walk_left walk_down))
+    applymovement(9, moves(walk_right * 2 walk_down * 7 walk_left walk_down))
+    waitmovement(0)
+
+    removeobject(8)
+    removeobject(9)
+
+    playse(SE_EXIT)
+    waitse
+
+    setflag(FLAG_CHAMPION_MARTHA_COMPLETE)
+
+    releaseall
+    end
+}
+
