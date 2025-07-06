@@ -444,32 +444,38 @@ WhiteSign_Rivetshore_Daycare::
 	end
 
 
+WhiteSign_Rivetshore_Horizon::
+# 422 "data//scripts/customscripts_signs.pory"
+	msgbox WhiteSign_Rivetshore_Horizon_Text_0, MSGBOX_SIGN
+	end
+
+
 WhiteSign_VictoryRoad::
-# 428 "data//scripts/customscripts_signs.pory"
+# 432 "data//scripts/customscripts_signs.pory"
 	msgbox WhiteSign_VictoryRoad_Text_0, MSGBOX_SIGN
 	end
 
 
 WhiteSign_VictoryCape_Main::
-# 432 "data//scripts/customscripts_signs.pory"
+# 436 "data//scripts/customscripts_signs.pory"
 	msgbox WhiteSign_VictoryCape_Main_Text_0, MSGBOX_SIGN
 	end
 
 
 WhiteSign_VictoryCape_Hotel::
-# 436 "data//scripts/customscripts_signs.pory"
+# 440 "data//scripts/customscripts_signs.pory"
 	msgbox WhiteSign_VictoryCape_Hotel_Text_0, MSGBOX_SIGN
 	end
 
 
 WhiteSign_VictoryCape_Mart::
-# 440 "data//scripts/customscripts_signs.pory"
+# 444 "data//scripts/customscripts_signs.pory"
 	msgbox WhiteSign_VictoryCape_Mart_Text_0, MSGBOX_SIGN
 	end
 
 
 WhiteSign_VictoryCape_Venue::
-# 444 "data//scripts/customscripts_signs.pory"
+# 448 "data//scripts/customscripts_signs.pory"
 	msgbox WhiteSign_VictoryCape_Venue_Text_0, MSGBOX_SIGN
 	end
 
@@ -860,23 +866,28 @@ WhiteSign_Rivetshore_Daycare_Text_0:
 # 418 "data//scripts/customscripts_signs.pory"
 	.string "The Ranger Day-Care Facility$"
 
+WhiteSign_Rivetshore_Horizon_Text_0:
+# 422 "data//scripts/customscripts_signs.pory"
+	.string "Rivetshore Horizon\n"
+	.string "The southernmost tip of Cormoria!$"
+
 WhiteSign_VictoryRoad_Text_0:
-# 428 "data//scripts/customscripts_signs.pory"
+# 432 "data//scripts/customscripts_signs.pory"
 	.string "Victory Road$"
 
 WhiteSign_VictoryCape_Main_Text_0:
-# 432 "data//scripts/customscripts_signs.pory"
+# 436 "data//scripts/customscripts_signs.pory"
 	.string "Victory Cape\n"
 	.string "The Cormoria Pokémon Championship$"
 
 WhiteSign_VictoryCape_Hotel_Text_0:
-# 436 "data//scripts/customscripts_signs.pory"
+# 440 "data//scripts/customscripts_signs.pory"
 	.string "The Victory Cape Hotel$"
 
 WhiteSign_VictoryCape_Mart_Text_0:
-# 440 "data//scripts/customscripts_signs.pory"
+# 444 "data//scripts/customscripts_signs.pory"
 	.string "Victory Cape Dept. Store$"
 
 WhiteSign_VictoryCape_Venue_Text_0:
-# 444 "data//scripts/customscripts_signs.pory"
+# 448 "data//scripts/customscripts_signs.pory"
 	.string "Championship Stadium$"

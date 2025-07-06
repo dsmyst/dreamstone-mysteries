@@ -148,9 +148,7 @@ Debug_EventScript_Script_2::
 	end
 
 Debug_EventScript_Script_3::
-	setflag FLAG_IS_CHAMPION
-	warp MAP_CHAMPIONSHIP, 30, 14
-	release
+	setflag FLAG_CHAMPION_RAVINE_SETUP
 	end
 
 Debug_EventScript_Script_4::
