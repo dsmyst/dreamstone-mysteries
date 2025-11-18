@@ -1,7 +1,12 @@
 # Pokemon Dreamstone Mysteries
 
 Welcome to the open-source repository of Pokemon Dreamstone Mysteries! 
-Download the patch (no ROM provided) or compile from source, following the instructions in the pokeemerald-expansion repository.
+
+[Download the patch (no ROM provided) here!](https://www.mediafire.com/file/qhk62rvqd74v6h7/Pokemon_Dreamstone_Mysteries.ups/file)
+
+Or compile from source, following the instructions in the [pokeemerald-expansion repository](https://github.com/rh-hideout/pokeemerald-expansion).
+
+
 
 Feel free to do whatever you like with this repo! Translate the game, mod the game, take my assets, whatever you like.
 For my assets, no need to give credit. That'd be the blue-haired player character and the character selection system.
