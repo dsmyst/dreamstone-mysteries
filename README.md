@@ -77,7 +77,7 @@ Thank you both for your patience, effort and collaboration to make this game com
 
 Additional Credits
 
-This game is built on the work of many talented contributors to the ROM Hacking community. Without the work and contributions of names below, this game does not exist.
+This game is built on the work of many talented contributors to the ROM Hacking community. Without the work and contributions of names below, this game simply does not exist.
 
 * ROM Base (pokeemerald) | pret
 * pokeemerald-expansion | RHH
