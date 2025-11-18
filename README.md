@@ -3,6 +3,10 @@
 Welcome to the open-source repository of Pokemon Dreamstone Mysteries! 
 Download the patch (no ROM provided) or compile from source, following the instructions in the pokeemerald-expansion repository.
 
+Feel free to do whatever you like with this repo! Translate the game, mod the game, take my assets, whatever you like.
+For my assets, no need to give credit. That'd be the blue-haired player character and the character selection system.
+If you see any other assets that you'd like to use, they are all open source. However, please check out the original creators (refer to the credits below), head to the original sources for more details, and credit as per their request.
+
 <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/c0419035-3b2b-48b8-9c1f-3366cee37083" />
 
 A ROMHack based on Pokemon Emerald. Classic Pokemon gameplay in an exciting new region.
@@ -11,22 +15,23 @@ A ROMHack based on Pokemon Emerald. Classic Pokemon gameplay in an exciting new 
 Embark on an epic adventure across the all-new region of Cormoria, traveling with your loyal Pokémon through frozen mountains, fiery craters, misty swamps, bustling cities, and shadowy sewers. Your goal: track down the missing Professor Tenebris and unravel the mystery behind the enigmatic Dreamstones she uncovered. What hidden power do these stones hold—and why will Team Somber stop at nothing to claim them? The fate of Cormoria rests in your hands.
 
 # FEATURES
-Explore a Whole New Region: Journey across the original region of Cormoria with a brand-new story, characters, and setting to uncover.
-Fresh Gameplay Innovations: Experience creative twists on the traditional Pokémon formula that modernize and enrich the classic gameplay.
-Mature Themes with Classic Charm: Engage with deeper side stories and emotional quests that explore mature ideas while preserving Pokémon’s heart and wonder.
-Handpicked Pokédex (~300 Pokémon): Catch and train from a curated mix of Pokémon across generations—balanced, diverse, and full of surprises.
-Less Grind, More Play: Access EXP Share, mints, bottle caps, and an intuitive EV editor early on, keeping the focus on adventure and strategy.
-Visual Upgrades: Enjoy revamped tilesets, modern menus, and clean UI design for a polished, updated presentation.
-Tons of Quality-of-Life Features
-Pokémon follow you in the overworld
-No HMs required—use field abilities freely
-Faster, smoother battle pacing
-Unique overworld encounters
-Built-in quest tracker
-Mega Evolutions
-…and much more waiting to be discovered!
+* Explore a Whole New Region: Journey across the original region of Cormoria with a brand-new story, characters, and setting to uncover.
+* Fresh Gameplay Innovations: Experience creative twists on the traditional Pokémon formula that modernize and enrich the classic gameplay.
+* Mature Themes with Classic Charm: Engage with deeper side stories and emotional quests that explore mature ideas while preserving Pokémon’s heart and wonder.
+* Handpicked Pokédex (~300 Pokémon): Catch and train from a curated mix of Pokémon across generations—balanced, diverse, and full of surprises.
+* Less Grind, More Play: Access EXP Share, mints, bottle caps, and an intuitive EV editor early on, keeping the focus on adventure and strategy.
+* Visual Upgrades: Enjoy revamped tilesets, modern menus, and clean UI design for a polished, updated presentation.
+And loads of Quality-of-Life Features...
+* Pokémon follow you in the overworld
+* No HMs required—use field abilities freely
+* Faster, smoother battle pacing
+* Unique overworld encounters
+* Built-in quest tracker
+* Mega Evolutions
+* …and much more waiting to be discovered!
 
 # WALKTHROUGH
+Check out the full no-commentary walkthrough, provided by the goat Kouteshi!
 https://www.youtube.com/watch?v=gmAT-xGE-os
 
 # ROUGH DOCS
@@ -54,44 +59,48 @@ Zanders | Zeref | Ktull | TYRANT OF DESPAIR
 
 Special Thanks
 
-BroDudeIII, who designed the beautiful badge icons + the delicious-looking Apple Pie icon. Chef’s kiss!
-Bivurnum, who developed the fishing minigame and took out the time to patiently solve bugs and even customised some elements of it for this game. Extremely grateful!
+* BroDudeIII, who designed the beautiful badge icons + the delicious-looking Apple Pie icon. Chef’s kiss!
+* Bivurnum, who developed the fishing minigame and took out the time to patiently solve bugs and even customised some elements of it for this game. Extremely grateful!
 
 Partners
 
 Thank you both for your patience, effort and collaboration to make this game come alive. Both of you were so professional and supportive. People know about this game because of you.
-Distribution |	PokeHarbor
-YouTube |	Kouteshi
+* Distribution |	PokeHarbor
+* YouTube |	Kouteshi
 
 Additional Credits
 
 This game is built on the work of many talented contributors to the ROM Hacking community. Without the work and contributions of names below, this game does not exist.
 
-ROM Base (pokeemerald) | pret
-pokeemerald-expansion | RHH
-Fishing Minigame | Bivurnum
-Mining Minigame | vol8
-Game Corner Minigames | Chris Piche (ported by AGSMG64)
-Console Minigames | Chris Piche (ported by AGSMG64)
-Battle Speed-Up | Pokabbie (ported by AlexOn1ine)
-Main Menu | Archie (graphics by Mudskip)
-Pokemon Party Menu | Archie
-Pokemon Summary Screen | RavePossum
-Quest System | pkmnsnfrm (Original system – Skeli)
-Trainer Sprites | GBA Sprites Pack (compiled by LibertyTwins), CDRX73, Rubire4, hyo
-Trainer Overworlds | GBA Sprites Pack (compiled by LibertyTwins), kwenio, hyo
-Battle Backgrounds | GBA Sprites Pack (compiled by LibertyTwins)
+* ROM Base (pokeemerald) | pret
+* pokeemerald-expansion | RHH
+* Fishing Minigame | Bivurnum
+* Mining Minigame | vol8
+* Game Corner Minigames | Chris Piche (ported by AGSMG64)
+* Console Minigames | Chris Piche (ported by AGSMG64)
+* Battle Speed-Up | Pokabbie (ported by AlexOn1ine)
+* Main Menu | Archie (graphics by Mudskip)
+* Pokemon Party Menu | Archie
+* Pokemon Summary Screen | RavePossum
+* Quest System | pkmnsnfrm (Original system – Skeli)
+* Trainer Sprites | GBA Sprites Pack (compiled by LibertyTwins), CDRX73, Rubire4, hyo
+* Trainer Overworlds | GBA Sprites Pack (compiled by LibertyTwins), kwenio, hyo
+* Battle Backgrounds | GBA Sprites Pack (compiled by LibertyTwins)
 
 
-
-
-
+<br />
+<br />
+<br />
+<br />
 
 A game by dsmyst.
 
+<br />
+<br />
+<br />
+<br />
 
 
 
-
-The  Pokémon Universe is created, managed and promoted by Nintendo, GameFreak and The Pokémon Company, to whom credit goes in inspiring wonder and fantasy in generation after generation of young minds.
+<i>The  Pokémon Universe is created, managed and promoted by Nintendo, GameFreak and The Pokémon Company, to whom credit goes in inspiring wonder and fantasy in generation after generation of young minds. If, for whatever reason, the copyright holders deem this repository unfit for public access, please email me at dreamstonemysteries@gmail.com. If, for whatever reason, anything about Dreamstone Mysteries conflicts with any official game, I waive whatever rights or claim I have.</i>
 
