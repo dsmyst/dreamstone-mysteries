@@ -34,11 +34,15 @@ And loads of Quality-of-Life Features...
 Check out the full no-commentary walkthrough, provided by the goat Kouteshi!
 https://www.youtube.com/watch?v=gmAT-xGE-os
 
-# ROUGH DOCS
+# DOCS & COMMUNITY
+Check out the documentation here!
 https://docs.google.com/spreadsheets/d/1L-I9FXE_Xuv_lDzIr1W1IVOqAqGFNHhpl1hrbVnrgDw/edit?gid=0#gid=0
 
+For further questions, join the Discord server:
+https://discord.gg/7GNBupP6xw
+
 # CREDITS
-To my testers - a heartfelt thank you to all the lovely people on this list and their incredible testing and feedback. Without you all, this game would be a tenth of what it is now. Eternal love and gratitude.
+To my testers - a heartfelt thank you to all of you and your incredible testing and feedback. So many good conversations, so many new perspectives. Without you all, this game would be a tenth of what it is now. Eternal love and gratitude.
 
 Grim | AngusGhost | BroDudeIII | Eden
 Sentry108 | Sherry | gozliak | reign_re
@@ -54,7 +58,7 @@ Asta | jimmyboi | Moss226 | spectre
 Atmiex | JustLenny | Ordinary Everyday Italian | Teru
 Biggus Dickus | Kadyp327 | Phoenix009 | PacoScarso
 Codai | Leilyprince | primus | VanWhalen
-FRANKIEEE | LooYaw | ptrck | vel
+FRANKIEEE | LooYaw | ptrck | vel | SimhaGamerz |
 Zanders | Zeref | Ktull | TYRANT OF DESPAIR
 
 Special Thanks
@@ -101,6 +105,5 @@ A game by dsmyst.
 <br />
 
 
-
-<i>The  Pokémon Universe is created, managed and promoted by Nintendo, GameFreak and The Pokémon Company, to whom credit goes in inspiring wonder and fantasy in generation after generation of young minds. If, for whatever reason, the copyright holders deem this repository unfit for public access, please email me at dreamstonemysteries@gmail.com. If, for whatever reason, anything about Dreamstone Mysteries conflicts with any official game, I waive whatever rights or claim I have.</i>
+<i>The  Pokémon Universe is created, managed and promoted by Nintendo, GameFreak and The Pokémon Company, to whom credit goes in inspiring wonder and fantasy in generation after generation of young minds. If, for whatever reason, the copyright holders deem this repository unfit for public access, please email me at dreamstonemysteries@gmail.com. If, for whatever reason, anything about Dreamstone Mysteries conflicts with any official game, I waive whatever rights or claim I may have in any capacity for any purpose.</i>
 
