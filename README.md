@@ -9,8 +9,8 @@ Or compile from source, following the instructions in the [pokeemerald-expansion
 
 
 Feel free to do whatever you like with this repo! Translate the game, mod the game, take my assets, whatever you like.
-For my assets, no need to give credit. That'd be the blue-haired player character and the character selection system.
-If you see any other assets that you'd like to use, they are all open source. However, please check out the original creators (refer to the credits below), head to the original sources for more details, and credit as per their request.
+For my assets, there's no need to give credit. That'd be the blue-haired player character and the character selection system.
+If you see any other assets that you'd like to use, they are all open source. However, please check out the original creators (refer to the credits below), head to the original sources for more details, and credit as per their request. 
 
 <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/c0419035-3b2b-48b8-9c1f-3366cee37083" />
 
