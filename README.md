@@ -26,6 +26,7 @@ Embark on an epic adventure across the all-new region of Cormoria, traveling wit
 * Handpicked Pokédex (~300 Pokémon): Catch and train from a curated mix of Pokémon across generations—balanced, diverse, and full of surprises.
 * Less Grind, More Play: Access EXP Share, mints, bottle caps, and an intuitive EV editor early on, keeping the focus on adventure and strategy.
 * Visual Upgrades: Enjoy revamped tilesets, modern menus, and clean UI design for a polished, updated presentation.
+
 And loads of Quality-of-Life Features...
 * Pokémon follow you in the overworld
 * No HMs required—use field abilities freely
