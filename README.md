@@ -57,16 +57,18 @@ FRANKIEEE | LooYaw | ptrck | vel
 Zanders | Zeref | Ktull | TYRANT OF DESPAIR
 
 Special Thanks
+
 BroDudeIII, who designed the beautiful badge icons + the delicious-looking Apple Pie icon. Chef’s kiss!
 Bivurnum, who developed the fishing minigame and took out the time to patiently solve bugs and even customised some elements of it for this game. Extremely grateful!
 
 Partners
-Thank you both for your patience, effort and collaboration to make this game come alive. Both of you were so professional and supportive. People know about this game because of you.
 
+Thank you both for your patience, effort and collaboration to make this game come alive. Both of you were so professional and supportive. People know about this game because of you.
 Distribution |	PokeHarbor
 YouTube |	Kouteshi
 
 Additional Credits
+
 This game is built on the work of many talented contributors to the ROM Hacking community. Without the work and contributions of names below, this game does not exist.
 
 ROM Base (pokeemerald) | pret
